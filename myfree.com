@@ -1,49 +1,49 @@
-  
-        ; Zone: myfree.com. (#329052)
-; Mon Dec 28 18:57:44 2015
-
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.myfree.com. (
-	2011080555	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-          	3600	IN MX   	20 ALT1.ASPMX.L.GOOGLE.COM.
-          	3600	IN MX   	20 ALT2.ASPMX.L.GOOGLE.COM.
-          	3600	IN MX   	10 ASPMX.L.GOOGLE.COM.
-          	3600	IN MX   	30 ASPMX2.GOOGLEMAIL.COM.
-          	3600	IN MX   	30 ASPMX3.GOOGLEMAIL.COM.
-          	3600	IN NS   	a.ns.mtgsy.com.
-          	3600	IN NS   	dns1.name-s.net.
-          	3600	IN NS   	dns2.name-s.net.
-          	3600	IN NS   	dns3.mtgsy.com.
-          	3600	IN NS   	dns4.mtgsy.com.
-          	3600	IN TXT  	"google-site-verification=LNukaxZjIFYnLU-unjy6pMeX4_mX6ZX0kAv_g_Lwsrc"
-ads       	3600	IN A    	64.132.70.250
-bb        	3600	IN CNAME	www.popularliving.com.
-bd        	3600	IN CNAME	www.popularliving.com.
-bizdev    	3600	IN A    	216.48.124.132
-cam       	3600	IN A    	64.132.70.15
-cgi       	3600	IN CNAME	www.popularliving.com.
-ebook     	3600	IN CNAME	www.popularliving.com.
-ed        	3600	IN CNAME	www.popularliving.com.
-editors   	3600	IN CNAME	www.popularliving.com.
-edu       	3600	IN A    	216.48.124.132
-formmail  	3600	IN CNAME	www.popularliving.com.
-funpages  	3600	IN A    	216.48.124.137
-join      	3600	IN A    	216.48.124.137
-mail      	3600	IN A    	216.48.124.133
-manage    	3600	IN CNAME	dforward.mtgsy.net.
-nibbles   	3600	IN CNAME	www.popularliving.com.
-pc        	3600	IN A    	216.48.124.137
-postcards 	3600	IN A    	216.48.124.137
-redirects 	3600	IN CNAME	www.popularliving.com.
-surveys   	3600	IN CNAME	www.popularliving.com.
-vps1      	3600	IN A    	198.46.156.39
-vps2      	3600	IN A    	198.46.156.4
-webmail   	3600	IN CNAME	dforward.mtgsy.net.
-xmail     	3600	IN CNAME	dforward.mtgsy.net.
+;; 
+;; Domain:     myfree.com
+;; Exported:   2016-02-15 17:53:21
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	myfree.com.	root.myfree.com.	(
+		2020722540	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
 
-  
+
+;; NS Records (YOU MUST CHANGE THIS)
+myfree.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+myfree.com.	300	IN	MX	10	mail01.amperemedia.com.
+
+;; TXT Records
+myfree.com.	300	IN	TXT	"v=spf1 ip4:216.48.124.0/24 a mx ptr -all"
+
+;; A Records (IPv4 addresses)
+mail.myfree.com.	300	IN	A	216.48.124.133
+*.myfree.com.	300	IN	A	104.130.175.114
+myfree.com.	300	IN	A	104.130.175.114
+www.myfree.com.	300	IN	A	104.130.175.114

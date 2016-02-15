@@ -1,25 +1,48 @@
-  
-        ; Zone: oceanup.com. (#686022)
-; Tue Dec 22 21:24:55 2015
+;; 
+;; Domain:     oceanup.com
+;; Exported:   2016-02-15 17:55:35
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	oceanup.com.	root.oceanup.com.	(
+		2020722553	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	b.ns.mtgsy.com.	hostmaster.oceanup.com. (
-	2015071510	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-        	3600	IN A    	104.130.42.74
-        	3600	IN MX   	10 mx-biz.mail.am0.yahoodns.net.
-        	3600	IN NS   	a.ns.mtgsy.com.
-        	3600	IN NS   	dns2.name-s.net.
-        	3600	IN NS   	dns3.mtgsy.com.
-        	3600	IN NS   	dns4.mtgsy.com.
-*       	3600	IN A    	104.130.42.74
-archive 	3600	IN A    	172.99.68.215
-dev     	3600	IN A    	172.99.68.215
-stage   	3600	IN A    	172.99.68.215
-www     	3600	IN A    	104.130.42.74
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+oceanup.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+oceanup.com.	300	IN	MX	10	mx-biz.mail.am0.yahoodns.net.
+
+;; A Records (IPv4 addresses)
+stage.oceanup.com.	300	IN	A	172.99.68.215
+dev.oceanup.com.	300	IN	A	172.99.68.215
+*.oceanup.com.	300	IN	A	104.130.42.74
+www.oceanup.com.	300	IN	A	104.130.42.74
+archive.oceanup.com.	300	IN	A	172.99.68.215
+oceanup.com.	300	IN	A	104.130.42.74

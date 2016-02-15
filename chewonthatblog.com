@@ -1,24 +1,46 @@
-  
-        ; Zone: chewonthatblog.com. (#329102)
-; Wed Dec 23 17:30:04 2015
+;; 
+;; Domain:     chewonthatblog.com
+;; Exported:   2016-02-15 16:45:11
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	chewonthatblog.com.	root.chewonthatblog.com.	(
+		2020722131	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	dns0.mtgsy.com.	hostmaster.chewonthatblog.com. (
-	2011080515	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-      	3600	IN A    	104.239.175.26
-      	86400	IN NS   	a.ns.mtgsy.com.
-      	86400	IN NS   	dns0.mtgsy.com.
-      	86400	IN NS   	dns2.name-s.net.
-      	86400	IN NS   	dns3.mtgsy.com.
-      	86400	IN NS   	dns4.mtgsy.com.
-ox-d  	3600	IN CNAME	junemedia-d3.openxenterprise.com.
-ox-i  	3600	IN CNAME	i.cdn.openx.com.
-ox-ui 	3600	IN CNAME	junemedia-ui3.openxenterprise.com.
-www   	3600	IN A    	104.239.175.26
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+chewonthatblog.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; CNAME Records
+ox-d.chewonthatblog.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
+ox-i.chewonthatblog.com.	300	IN	CNAME	i.cdn.openx.com.
+ox-ui.chewonthatblog.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
+
+;; A Records (IPv4 addresses)
+chewonthatblog.com.	300	IN	A	104.239.175.26
+www.chewonthatblog.com.	300	IN	A	104.239.175.26

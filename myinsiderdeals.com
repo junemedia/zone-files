@@ -1,36 +1,62 @@
-  
-        ; Zone: myinsiderdeals.com. (#327212)
-; Thu Dec 24 17:16:06 2015
+;; 
+;; Domain:     myinsiderdeals.com
+;; Exported:   2016-02-15 17:54:50
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	myinsiderdeals.com.	root.myinsiderdeals.com.	(
+		2020722549	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	dns0.mtgsy.com.	hostmaster.myinsiderdeals.com. (
-	2011072904	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-        	3600	IN A    	216.48.124.244
-        	3600	IN MX   	10 mail.amperemedia.com.
-        	86400	IN NS   	a.ns.mtgsy.com.
-        	86400	IN NS   	dns0.mtgsy.com.
-        	86400	IN NS   	dns2.name-s.net.
-        	86400	IN NS   	dns3.mtgsy.com.
-        	86400	IN NS   	dns4.mtgsy.com.
-*       	3600	IN A    	216.48.124.244
-ch      	3600	IN A    	64.132.70.41
-ch      	3600	IN A    	64.132.70.42
-ch      	3600	IN A    	64.132.70.43
-ch      	3600	IN A    	64.132.70.44
-ch      	3600	IN A    	64.132.70.45
-images  	3600	IN CNAME	images.myinsiderdeals.com.edgesuite.net.
-mail    	3600	IN MX   	10 mail.amperemedia.com.
-mail    	86400	IN TXT  	"v=spf1 ip4:64.132.70.0/24 a mx include:amperemedia.com ~all"
-r       	3600	IN A    	216.48.124.198
-ww2     	3600	IN A    	216.48.124.244
-www     	3600	IN A    	216.48.124.244
-www2    	3600	IN A    	216.48.124.244
-www3    	3600	IN A    	216.48.124.6
-www3old 	3600	IN A    	216.150.143.86
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+myinsiderdeals.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+myinsiderdeals.com.	300	IN	MX	10	mail.amperemedia.com.
+mail.myinsiderdeals.com.	300	IN	MX	10	mail.amperemedia.com.
+
+;; TXT Records
+mail.myinsiderdeals.com.	300	IN	TXT	"v=spf1 ip4:64.132.70.0/24 a mx include:amperemedia.com ~all"
+
+;; CNAME Records
+images.myinsiderdeals.com.	300	IN	CNAME	images.myinsiderdeals.com.edgesuite.net.
+
+;; A Records (IPv4 addresses)
+ch.myinsiderdeals.com.	300	IN	A	64.132.70.45
+*.myinsiderdeals.com.	300	IN	A	216.48.124.244
+www3old.myinsiderdeals.com.	300	IN	A	216.150.143.86
+myinsiderdeals.com.	300	IN	A	216.48.124.244
+ch.myinsiderdeals.com.	300	IN	A	64.132.70.44
+www3.myinsiderdeals.com.	300	IN	A	216.48.124.6
+ch.myinsiderdeals.com.	300	IN	A	64.132.70.43
+www.myinsiderdeals.com.	300	IN	A	216.48.124.244
+www2.myinsiderdeals.com.	300	IN	A	216.48.124.244
+ch.myinsiderdeals.com.	300	IN	A	64.132.70.42
+r.myinsiderdeals.com.	300	IN	A	216.48.124.198
+ch.myinsiderdeals.com.	300	IN	A	64.132.70.41
+ww2.myinsiderdeals.com.	300	IN	A	216.48.124.244

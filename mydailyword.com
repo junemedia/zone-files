@@ -1,20 +1,43 @@
-  
-        ; Zone: mydailyword.com. (#388322)
-; Mon Feb 15 13:59:08 2016
+;; 
+;; Domain:     mydailyword.com
+;; Exported:   2016-02-15 17:36:37
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	mydailyword.com.	root.mydailyword.com.	(
+		2020722439	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.mydailyword.com. (
-	2012061308	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-     	3600	IN A    	216.48.124.5
-     	86400	IN NS   	ns1.sedoparking.com.
-     	86400	IN NS   	ns2.sedoparking.com.
-     	86400	IN TXT  	"v=spf1 mx -all"
-www  	3600	IN A    	216.48.124.5
-www3 	3600	IN A    	216.48.124.6
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+mydailyword.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; CNAME Records
+www.mydailyword.com.	300	IN	CNAME	mydailyword.com.
+
+;; A Records (IPv4 addresses)
+mydailyword.com.	300	IN	A	104.130.175.114

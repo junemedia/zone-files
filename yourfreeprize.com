@@ -1,26 +1,48 @@
-  
-        ; Zone: yourfreeprize.com. (#392782)
-; Mon Dec 28 21:12:15 2015
+;; 
+;; Domain:     yourfreeprize.com
+;; Exported:   2016-02-15 18:23:53
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	yourfreeprize.com.	root.yourfreeprize.com.	(
+		2020722723	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.yourfreeprize.com. (
-	2012062806	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-         	3600	IN A    	216.48.124.239
-         	3600	IN MX   	10 mailserver.kardz.com.
-         	3600	IN NS   	a.ns.mtgsy.com.
-         	3600	IN NS   	dns1.name-s.net.
-         	3600	IN NS   	dns2.name-s.net.
-         	3600	IN NS   	dns3.mtgsy.com.
-         	3600	IN NS   	dns4.mtgsy.com.
-*        	3600	IN A    	216.48.124.239
-members  	3600	IN A    	216.48.124.245
-members4 	3600	IN A    	216.48.124.245
-www      	3600	IN A    	216.48.124.239
-www4     	3600	IN A    	216.48.124.239
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+yourfreeprize.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+yourfreeprize.com.	300	IN	MX	10	mailserver.kardz.com.
+
+;; A Records (IPv4 addresses)
+*.yourfreeprize.com.	300	IN	A	216.48.124.239
+members.yourfreeprize.com.	300	IN	A	216.48.124.245
+www4.yourfreeprize.com.	300	IN	A	216.48.124.239
+yourfreeprize.com.	300	IN	A	216.48.124.239
+members4.yourfreeprize.com.	300	IN	A	216.48.124.245
+www.yourfreeprize.com.	300	IN	A	216.48.124.239

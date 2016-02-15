@@ -1,32 +1,56 @@
-  
-        ; Zone: amlivingnetwork.com. (#392972)
-; Thu Dec 24 17:25:03 2015
+;; 
+;; Domain:     amlivingnetwork.com
+;; Exported:   2016-02-15 16:29:39
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	amlivingnetwork.com.	root.amlivingnetwork.com.	(
+		2020722037	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.amlivingnetwork.com. (
-	2012062802	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-      	3600	IN A    	216.48.124.244
-      	3600	IN MX   	10 mail.myfree.com.
-      	3600	IN NS   	a.ns.mtgsy.com.
-      	3600	IN NS   	dns1.name-s.net.
-      	3600	IN NS   	dns2.name-s.net.
-      	3600	IN NS   	dns3.mtgsy.com.
-      	3600	IN NS   	dns4.mtgsy.com.
-      	3600	IN TXT  	"v=spf1 ip4:64.132.70.0/24 a mx ptr -all"
-admin 	3600	IN A    	64.132.70.110
-test  	3600	IN A    	64.132.70.110
-test0 	3600	IN A    	64.132.70.110
-test2 	3600	IN A    	64.132.70.32
-test3 	3600	IN A    	64.132.70.33
-test4 	3600	IN A    	64.132.70.34
-ww2   	3600	IN A    	216.48.124.244
-www   	3600	IN A    	216.48.124.244
-www2  	3600	IN A    	216.48.124.244
-www3  	3600	IN A    	216.48.124.45
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+amlivingnetwork.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+amlivingnetwork.com.	300	IN	MX	10	mail.myfree.com.
+
+;; TXT Records
+amlivingnetwork.com.	300	IN	TXT	"v=spf1 ip4:64.132.70.0/24 a mx ptr -all"
+
+;; A Records (IPv4 addresses)
+www3.amlivingnetwork.com.	300	IN	A	216.48.124.45
+ww2.amlivingnetwork.com.	300	IN	A	216.48.124.244
+test3.amlivingnetwork.com.	300	IN	A	64.132.70.33
+test2.amlivingnetwork.com.	300	IN	A	64.132.70.32
+test0.amlivingnetwork.com.	300	IN	A	64.132.70.110
+www2.amlivingnetwork.com.	300	IN	A	216.48.124.244
+amlivingnetwork.com.	300	IN	A	216.48.124.244
+www.amlivingnetwork.com.	300	IN	A	216.48.124.244
+test4.amlivingnetwork.com.	300	IN	A	64.132.70.34
+admin.amlivingnetwork.com.	300	IN	A	64.132.70.110
+test.amlivingnetwork.com.	300	IN	A	64.132.70.110

@@ -1,30 +1,43 @@
-  
-        ; Zone: yourgiftchoice.com. (#392732)
-; Thu Dec 24 15:02:23 2015
+;; 
+;; Domain:     yourgiftchoice.com
+;; Exported:   2016-02-15 18:24:20
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	yourgiftchoice.com.	root.yourgiftchoice.com.	(
+		2020722726	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.yourgiftchoice.com. (
-	2012062802	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-            	3600	IN A    	216.48.124.60
-            	3600	IN MX   	10 mailserver.kardz.com.
-            	3600	IN NS   	a.ns.mtgsy.com.
-            	3600	IN NS   	dns1.name-s.net.
-            	3600	IN NS   	dns2.name-s.net.
-            	3600	IN NS   	dns3.mtgsy.com.
-            	3600	IN NS   	dns4.mtgsy.com.
-*           	3600	IN A    	216.48.124.60
-ibm         	3600	IN A    	129.33.238.204
-legacy      	3600	IN A    	129.33.238.204
-legacyyahoo 	3600	IN A    	206.245.171.199
-stage       	3600	IN A    	129.22.238.205
-sv          	3600	IN A    	66.185.176.5
-www         	3600	IN A    	216.48.124.60
-www4        	3600	IN A    	207.45.160.146
-yahoo       	3600	IN A    	207.45.160.146
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+yourgiftchoice.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; CNAME Records
+www.yourgiftchoice.com.	300	IN	CNAME	yourgiftchoice.com.
+
+;; A Records (IPv4 addresses)
+yourgiftchoice.com.	300	IN	A	104.130.175.114

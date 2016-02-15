@@ -1,82 +1,108 @@
-  
-        ; Zone: silvercarrot.com. (#327202)
-; Mon Feb 15 14:13:03 2016
-
-@	IN SOA	dns0.mtgsy.com.	hostmaster.silvercarrot.com. (
-	2011072988	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-                         	3600	IN A    	104.130.175.114
-                         	3600	IN MX   	10 mx1.emailsrvr.com.
-                         	3600	IN MX   	20 mx2.emailsrvr.com.
-                         	86400	IN NS   	a.ns.mtgsy.com.
-                         	86400	IN NS   	dns0.mtgsy.com.
-                         	86400	IN NS   	dns2.name-s.net.
-                         	86400	IN NS   	dns3.mtgsy.com.
-                         	86400	IN NS   	dns4.mtgsy.com.
-                         	3600	IN TXT  	"v=spf1 include:emailsrvr.com ~all"
-*                        	3600	IN A    	104.130.175.114
-admin                    	3600	IN A    	216.48.124.235
-admin                    	3600	IN MX   	10 mailserver.kardz.com.
-akamai-test-scww07       	3600	IN CNAME	akamai-test-scww07.silvercarrot.com.edgesuite.net.
-autodiscover             	3600	IN CNAME	autodiscover.emailsrvr.com.
-backroom                 	3600	IN A    	216.48.124.235
-besession01              	3600	IN A    	216.48.124.50
-coreg                    	3600	IN A    	216.48.124.234
-demo                     	3600	IN A    	216.48.124.235
-emailreg0d12c255e5313f0b 	3600	IN CNAME	emailreg.org.
-ftp                      	3600	IN A    	216.48.124.176
-ftp2                     	3600	IN A    	216.48.124.176
-ifdb01                   	3600	IN A    	216.48.124.171
-ifdb08                   	3600	IN A    	216.48.124.172
-imgsrv01                 	3600	IN A    	216.48.124.199
-imgsrv02                 	3600	IN A    	216.48.124.200
-links                    	3600	IN A    	216.48.124.235
-links2                   	3600	IN A    	216.48.124.48
-mail                     	3600	IN A    	216.150.141.170
-office                   	3600	IN MX   	10 slvcrtex01.silvercarrot.com.
-pq                       	3600	IN A    	216.48.124.51
-raq01                    	3600	IN A    	216.48.124.198
-raq01admin               	3600	IN A    	216.48.124.198
-report                   	3600	IN A    	216.48.124.13
-robot                    	3600	IN MX   	10 mailserver.kardz.com.
-scbak01                  	3600	IN A    	216.48.124.25
-scbak02                  	3600	IN A    	216.48.124.31
-scbeors1                 	3600	IN A    	216.48.124.60
-scbeors2                 	3600	IN A    	216.48.124.61
-scbeors3                 	3600	IN A    	216.48.124.62
-scdb01                   	3600	IN A    	216.48.124.37
-scdb02                   	3600	IN A    	216.48.124.38
-scdp02                   	3600	IN A    	216.48.124.24
-scww02                   	3600	IN A    	216.48.124.40
-scww03                   	3600	IN A    	216.48.124.41
-scww04                   	3600	IN A    	216.48.124.42
-scww05                   	3600	IN A    	216.48.124.43
-scww06                   	3600	IN A    	216.48.124.44
-scww07                   	3600	IN A    	216.48.124.46
-scww08                   	3600	IN A    	216.48.124.47
-scww09                   	3600	IN A    	216.48.124.48
-scww10                   	3600	IN A    	216.48.124.49
-scww11                   	3600	IN A    	216.48.124.34
-scww12                   	3600	IN A    	216.48.124.35
-scww13                   	3600	IN A    	216.48.124.186
-scww14                   	3600	IN A    	216.48.124.39
-slvcrtex-dag             	3600	IN A    	216.150.141.169
-slvcrtex01               	3600	IN A    	216.150.141.134
-slvcrtex2010             	3600	IN A    	216.150.141.170
-sql1                     	3600	IN A    	216.48.124.227
-sql2                     	3600	IN A    	216.48.124.228
-stats                    	3600	IN A    	216.48.124.235
-stats                    	3600	IN MX   	10 mailserver.kardz.com.
-stg                      	3600	IN A    	216.48.124.249
-vpn                      	3600	IN A    	66.117.119.138
-webmail                  	3600	IN A    	104.130.175.114
-wiki                     	3600	IN A    	216.48.124.51
-www                      	3600	IN A    	104.130.175.114
-xmail                    	3600	IN A    	104.130.175.114
+;; 
+;; Domain:     silvercarrot.com
+;; Exported:   2016-02-15 18:14:22
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	silvercarrot.com.	root.silvercarrot.com.	(
+		2020722666	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
 
-  
+
+;; NS Records (YOU MUST CHANGE THIS)
+silvercarrot.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; MX Records
+office.silvercarrot.com.	300	IN	MX	10	slvcrtex01.silvercarrot.com.
+silvercarrot.com.	300	IN	MX	20	mx2.emailsrvr.com.
+stats.silvercarrot.com.	300	IN	MX	10	mailserver.kardz.com.
+silvercarrot.com.	300	IN	MX	10	mx1.emailsrvr.com.
+admin.silvercarrot.com.	300	IN	MX	10	mailserver.kardz.com.
+robot.silvercarrot.com.	300	IN	MX	10	mailserver.kardz.com.
+
+;; TXT Records
+silvercarrot.com.	300	IN	TXT	"v=spf1 include:emailsrvr.com ~all"
+
+;; CNAME Records
+autodiscover.silvercarrot.com.	300	IN	CNAME	autodiscover.emailsrvr.com.
+akamai-test-scww07.silvercarrot.com.	300	IN	CNAME	akamai-test-scww07.silvercarrot.com.edgesuite.net.
+emailreg0d12c255e5313f0b.silvercarrot.com.	300	IN	CNAME	emailreg.org.
+
+;; A Records (IPv4 addresses)
+slvcrtex01.silvercarrot.com.	300	IN	A	216.150.141.134
+besession01.silvercarrot.com.	300	IN	A	216.48.124.50
+links.silvercarrot.com.	300	IN	A	216.48.124.235
+webmail.silvercarrot.com.	300	IN	A	104.130.175.114
+mail.silvercarrot.com.	300	IN	A	216.150.141.170
+scww13.silvercarrot.com.	300	IN	A	216.48.124.186
+pq.silvercarrot.com.	300	IN	A	216.48.124.51
+sql2.silvercarrot.com.	300	IN	A	216.48.124.228
+raq01admin.silvercarrot.com.	300	IN	A	216.48.124.198
+links2.silvercarrot.com.	300	IN	A	216.48.124.48
+raq01.silvercarrot.com.	300	IN	A	216.48.124.198
+scww11.silvercarrot.com.	300	IN	A	216.48.124.34
+report.silvercarrot.com.	300	IN	A	216.48.124.13
+*.silvercarrot.com.	300	IN	A	104.130.175.114
+scbak01.silvercarrot.com.	300	IN	A	216.48.124.25
+slvcrtex-dag.silvercarrot.com.	300	IN	A	216.150.141.169
+scbak02.silvercarrot.com.	300	IN	A	216.48.124.31
+stg.silvercarrot.com.	300	IN	A	216.48.124.249
+scbeors1.silvercarrot.com.	300	IN	A	216.48.124.60
+www.silvercarrot.com.	300	IN	A	104.130.175.114
+scbeors2.silvercarrot.com.	300	IN	A	216.48.124.61
+demo.silvercarrot.com.	300	IN	A	216.48.124.235
+scbeors3.silvercarrot.com.	300	IN	A	216.48.124.62
+ifdb08.silvercarrot.com.	300	IN	A	216.48.124.172
+scdb01.silvercarrot.com.	300	IN	A	216.48.124.37
+scww12.silvercarrot.com.	300	IN	A	216.48.124.35
+scdb02.silvercarrot.com.	300	IN	A	216.48.124.38
+scww14.silvercarrot.com.	300	IN	A	216.48.124.39
+scdp02.silvercarrot.com.	300	IN	A	216.48.124.24
+silvercarrot.com.	300	IN	A	104.130.175.114
+scww02.silvercarrot.com.	300	IN	A	216.48.124.40
+slvcrtex2010.silvercarrot.com.	300	IN	A	216.150.141.170
+scww03.silvercarrot.com.	300	IN	A	216.48.124.41
+sql1.silvercarrot.com.	300	IN	A	216.48.124.227
+scww04.silvercarrot.com.	300	IN	A	216.48.124.42
+stats.silvercarrot.com.	300	IN	A	216.48.124.235
+scww05.silvercarrot.com.	300	IN	A	216.48.124.43
+vpn.silvercarrot.com.	300	IN	A	66.117.119.138
+imgsrv01.silvercarrot.com.	300	IN	A	216.48.124.199
+wiki.silvercarrot.com.	300	IN	A	216.48.124.51
+imgsrv02.silvercarrot.com.	300	IN	A	216.48.124.200
+xmail.silvercarrot.com.	300	IN	A	104.130.175.114
+ifdb01.silvercarrot.com.	300	IN	A	216.48.124.171
+ftp.silvercarrot.com.	300	IN	A	216.48.124.176
+scww08.silvercarrot.com.	300	IN	A	216.48.124.47
+ftp2.silvercarrot.com.	300	IN	A	216.48.124.176
+scww09.silvercarrot.com.	300	IN	A	216.48.124.48
+coreg.silvercarrot.com.	300	IN	A	216.48.124.234
+scww10.silvercarrot.com.	300	IN	A	216.48.124.49
+backroom.silvercarrot.com.	300	IN	A	216.48.124.235
+scww06.silvercarrot.com.	300	IN	A	216.48.124.44
+admin.silvercarrot.com.	300	IN	A	216.48.124.235
+scww07.silvercarrot.com.	300	IN	A	216.48.124.46

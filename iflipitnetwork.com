@@ -1,44 +1,68 @@
-  
-        ; Zone: iflipitnetwork.com. (#387502)
-; Thu Dec 24 15:48:25 2015
-
-@	IN SOA	a.ns.mtgsy.com.	hostmaster.iflipitnetwork.com. (
-	2012061109	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-               	3600	IN A    	216.48.124.244
-               	3600	IN NS   	a.ns.mtgsy.com.
-               	3600	IN NS   	dns1.name-s.net.
-               	3600	IN NS   	dns2.name-s.net.
-               	3600	IN NS   	dns3.mtgsy.com.
-               	3600	IN NS   	dns4.mtgsy.com.
-               	86400	IN TXT  	"v=spf1 mx -all"
-*              	3600	IN A    	104.130.175.114
-demo           	3600	IN A    	104.130.175.114
-ifbo01         	3600	IN A    	216.48.124.53
-ifdb01         	3600	IN A    	216.48.124.171
-ifdb03         	3600	IN A    	216.48.124.187
-ifdb04         	3600	IN A    	216.48.124.188
-ifdb08         	3600	IN A    	216.48.124.172
-ifors01        	3600	IN A    	216.48.124.169
-ifors02        	3600	IN A    	216.48.124.170
-ifors03        	3600	IN A    	216.48.124.44
-ifors04        	3600	IN A    	216.48.124.24
-ifstg01        	3600	IN A    	216.48.124.32
-ifww01         	3600	IN A    	216.48.124.161
-ifww02         	3600	IN A    	216.48.124.163
-ifww03         	3600	IN A    	216.48.124.165
-ifww04         	3600	IN A    	216.48.124.167
-ifww05         	3600	IN A    	216.48.124.36
-ifww06         	3600	IN A    	216.48.124.39
-images         	3600	IN CNAME	images.iflipitnetwork.com.edgesuite.net.iflipitnetwork.com.
-preview        	3600	IN A    	216.48.124.46
-review         	3600	IN A    	104.130.175.114
-staging.images 	3600	IN CNAME	staging.images.iflipitnetwork.com.edgesuite.net.iflipitnetwork.com.
-www            	3600	IN A    	216.48.124.244
+;; 
+;; Domain:     iflipitnetwork.com
+;; Exported:   2016-02-15 17:30:12
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	iflipitnetwork.com.	root.iflipitnetwork.com.	(
+		2020722401	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
 
-  
+
+;; NS Records (YOU MUST CHANGE THIS)
+iflipitnetwork.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; TXT Records
+iflipitnetwork.com.	300	IN	TXT	"v=spf1 mx -all"
+
+;; CNAME Records
+staging.images.iflipitnetwork.com.	300	IN	CNAME	staging.images.iflipitnetwork.com.edgesuite.net.iflipitnetwork.com.
+images.iflipitnetwork.com.	300	IN	CNAME	images.iflipitnetwork.com.edgesuite.net.iflipitnetwork.com.
+
+;; A Records (IPv4 addresses)
+ifww06.iflipitnetwork.com.	300	IN	A	216.48.124.39
+ifww02.iflipitnetwork.com.	300	IN	A	216.48.124.163
+ifdb08.iflipitnetwork.com.	300	IN	A	216.48.124.172
+ifdb03.iflipitnetwork.com.	300	IN	A	216.48.124.187
+*.iflipitnetwork.com.	300	IN	A	104.130.175.114
+ifww04.iflipitnetwork.com.	300	IN	A	216.48.124.167
+iflipitnetwork.com.	300	IN	A	216.48.124.244
+ifdb04.iflipitnetwork.com.	300	IN	A	216.48.124.188
+ifors01.iflipitnetwork.com.	300	IN	A	216.48.124.169
+ifww01.iflipitnetwork.com.	300	IN	A	216.48.124.161
+ifors02.iflipitnetwork.com.	300	IN	A	216.48.124.170
+ifww03.iflipitnetwork.com.	300	IN	A	216.48.124.165
+ifors03.iflipitnetwork.com.	300	IN	A	216.48.124.44
+ifww05.iflipitnetwork.com.	300	IN	A	216.48.124.36
+review.iflipitnetwork.com.	300	IN	A	104.130.175.114
+preview.iflipitnetwork.com.	300	IN	A	216.48.124.46
+ifdb01.iflipitnetwork.com.	300	IN	A	216.48.124.171
+www.iflipitnetwork.com.	300	IN	A	216.48.124.244
+ifbo01.iflipitnetwork.com.	300	IN	A	216.48.124.53
+ifors04.iflipitnetwork.com.	300	IN	A	216.48.124.24
+demo.iflipitnetwork.com.	300	IN	A	104.130.175.114
+ifstg01.iflipitnetwork.com.	300	IN	A	216.48.124.32

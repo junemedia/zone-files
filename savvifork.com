@@ -1,24 +1,44 @@
-  
-        ; Zone: savvifork.com. (#538881)
-; Mon Feb 15 15:28:13 2016
+;; 
+;; Domain:     savvifork.com
+;; Exported:   2016-02-15 18:09:43
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	savvifork.com.	root.savvifork.com.	(
+		2020722638	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-@	IN SOA	dns1.name-s.net.	hostmaster.mtgsy.net. (
-	20041206  	  ; Serial
-	3600      	  ; Refresh
-	1200      	  ; Retry
-	1209600   	  ; Expire
-	3600      	) ; Minimum
-
-    	3600	IN A    	50.31.0.12
-    	3600	IN NS   	dns0.mtgsy.com.
-    	3600	IN NS   	dns1.name-s.net.
-    	3600	IN NS   	dns2.name-s.net.
-    	3600	IN NS   	dns3.mtgsy.com.
-    	3600	IN NS   	dns4.mtgsy.com.
-    	86400	IN TXT  	"v=spf1 mx -all"
-*   	3600	IN CNAME	dforward.mtgsy.net.
-@   	3600	IN CNAME	dforward.mtgsy.net.
-www 	3600	IN CNAME	dforward.mtgsy.net.
 
 
-  
+;; NS Records (YOU MUST CHANGE THIS)
+savvifork.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+
+;; TXT Records
+savvifork.com.	300	IN	TXT	"v=spf1 mx -all"
+
+;; A Records (IPv4 addresses)
+*.savvifork.com.	300	IN	A	104.239.182.231
+savvifork.com.	300	IN	A	104.239.182.231
