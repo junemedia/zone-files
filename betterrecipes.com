@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-02-26 02:52:40
+;; Exported:   2016-02-26 16:58:30
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2020812176	; serial
+		2020817251	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -41,7 +41,7 @@ betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
 
 ;; TXT Records
 jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
-betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com -all"
+betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
 
 ;; CNAME Records
 socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
