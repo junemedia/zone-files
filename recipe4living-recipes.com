@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living-recipes.com
-;; Exported:   2016-03-01 14:25:12
+;; Exported:   2016-03-01 21:38:37
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living-recipes.com.	root.recipe4living-recipes.com.	(
-		2020850891	; serial
+		2020853491	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -59,17 +59,19 @@ default._domainkey.recipe4living-recipes.com.	300	IN	TXT	"k=rsa\; t=y\; p=MIGfMA
 cmpgnr._domainkey.recipe4living-recipes.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkXkeunkCMjO0Qh+fhloifm7Drw1nt4K4InK39vHVPUdLpiZg/4HpLLMfZwqyvFg8Vvt/mBWLZnpzZ1r2QkcFnyVIe24cibXa/hwfA3L3keot5/sW+1s5f7dremR8nosao8IyJ48igoi7Lfypj//bKwM5YCVnXvS/RAt6x3QEgQwIDAQAB"
 
 ;; CNAME Records
+rs-branding.recipe4living-recipes.com.	300	IN	CNAME	branding.rs-1035-a.com.
+rs-stripe.recipe4living-recipes.com.	300	IN	CNAME	stripe.rs-1035-a.com.
 liveintent.recipe4living-recipes.com.	300	IN	CNAME	a0e7ecc10f2e165068f09d9ad65cfdd8.edgesuite.net.
 autodiscover.recipe4living-recipes.com.	300	IN	CNAME	autodiscover.emailsrvr.com.
 
 ;; A Records (IPv4 addresses)
-r4lmail5.recipe4living-recipes.com.	300	IN	A	216.174.43.176
-www3.recipe4living-recipes.com.	300	IN	A	216.48.124.6
-r4lmail6.recipe4living-recipes.com.	300	IN	A	216.174.43.177
-r4lmail7.recipe4living-recipes.com.	300	IN	A	216.174.43.178
-r4lmail4.recipe4living-recipes.com.	300	IN	A	216.174.43.175
 r4lmail8.recipe4living-recipes.com.	300	IN	A	216.174.43.182
+r4lmail4.recipe4living-recipes.com.	300	IN	A	216.174.43.175
+r4lmail5.recipe4living-recipes.com.	300	IN	A	216.174.43.176
+r4lmail7.recipe4living-recipes.com.	300	IN	A	216.174.43.178
 www.recipe4living-recipes.com.	300	IN	A	216.48.124.5
+r4lmail6.recipe4living-recipes.com.	300	IN	A	216.174.43.177
+r4lmail9.recipe4living-recipes.com.	300	IN	A	216.174.43.183
 mta03.recipe4living-recipes.com.	300	IN	A	168.235.224.33
 mta01.recipe4living-recipes.com.	300	IN	A	168.235.224.31
 r4lmail3.recipe4living-recipes.com.	300	IN	A	216.174.43.174
@@ -88,6 +90,6 @@ mta06.recipe4living-recipes.com.	300	IN	A	168.235.224.36
 mta05.recipe4living-recipes.com.	300	IN	A	168.235.224.35
 mta04.recipe4living-recipes.com.	300	IN	A	168.235.224.34
 links.recipe4living-recipes.com.	300	IN	A	168.235.224.14
-recipe4living-recipes.com.	300	IN	A	216.48.124.5
-r4lmail9.recipe4living-recipes.com.	300	IN	A	216.174.43.183
+www3.recipe4living-recipes.com.	300	IN	A	216.48.124.6
 r4lmail.recipe4living-recipes.com.	300	IN	A	216.174.43.172
+recipe4living-recipes.com.	300	IN	A	216.48.124.5

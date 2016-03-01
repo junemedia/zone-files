@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-02-26 16:58:30
+;; Exported:   2016-03-01 21:37:24
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2020817251	; serial
+		2020853484	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -45,6 +45,8 @@ betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost
 
 ;; CNAME Records
 socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
+rs-branding.betterrecipes.com.	300	IN	CNAME	branding.rs-1035-a.com.
+rs-stripe.betterrecipes.com.	300	IN	CNAME	stripe.rs-1035-a.com.
 
 ;; A Records (IPv4 addresses)
 win.betterrecipes.com.	300	IN	A	162.242.243.45
