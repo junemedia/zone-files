@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     popularliving.com
-;; Exported:   2016-02-15 17:56:13
+;; Exported:   2016-03-03 20:56:41
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	popularliving.com.	root.popularliving.com.	(
-		2020722557	; serial
+		2020870520	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,12 +37,17 @@ $ORIGIN .
 popularliving.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; A Records (IPv4 addresses)
-sf.popularliving.com.	300	IN	A	104.130.175.114
+admin.popularliving.com.	300	IN	A	104.130.175.114
 br.popularliving.com.	300	IN	A	104.130.175.114
-wim.popularliving.com.	300	IN	A	104.130.175.114
 fitfab.popularliving.com.	300	IN	A	104.130.175.114
 popularliving.com.	300	IN	A	104.130.175.114
-stage.popularliving.com.	300	IN	A	104.239.232.68
-admin.popularliving.com.	300	IN	A	104.130.175.114
-www.popularliving.com.	300	IN	A	104.130.175.114
 r4l.popularliving.com.	300	IN	A	104.130.175.114
+sf.popularliving.com.	300	IN	A	104.130.175.114
+stage.br.popularliving.com.	300	IN	A	162.242.248.108
+stage.fitfab.popularliving.com.	300	IN	A	162.242.248.108
+stage.popularliving.com.	300	IN	A	162.242.248.108
+stage.r4l.popularliving.com.	300	IN	A	162.242.248.108
+stage.sf.popularliving.com.	300	IN	A	162.242.248.108
+stage.wim.popularliving.com.	300	IN	A	162.242.248.108
+wim.popularliving.com.	300	IN	A	104.130.175.114
+www.popularliving.com.	300	IN	A	104.130.175.114
