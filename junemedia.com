@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2016-02-15 17:31:50
+;; Exported:   2016-03-31 19:39:02
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2020722411	; serial
+		2021111974	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -49,7 +49,6 @@ cmpgnr._domainkey.em.junemedia.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSI
 ;; CNAME Records
 read.em.junemedia.com.	300	IN	CNAME	secure.campaigner.com.
 ox-i.junemedia.com.	300	IN	CNAME	i.cdn.openx.com.
-ox-d.junemedia.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 ox-ui.junemedia.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
 autodiscover.junemedia.com.	300	IN	CNAME	autodiscover.emailsrvr.com.
 
@@ -80,3 +79,5 @@ slvcrtex-dag.junemedia.com.	300	IN	A	216.150.141.169
 slvcrtex01.junemedia.com.	300	IN	A	216.150.141.134
 barracuda.junemedia.com.	300	IN	A	104.130.175.114
 slvcrtex2010.junemedia.com.	300	IN	A	216.150.141.170
+niblets.junemedia.com.	300	IN	A	162.242.248.108
+ox-d.junemedia.com.	300	IN	A	104.130.175.114
