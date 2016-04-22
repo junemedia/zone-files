@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-03-01 21:37:24
+;; Exported:   2016-04-22 14:55:27
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2020853484	; serial
+		2021300352	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -38,23 +38,28 @@ betterrecipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
+email.betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
 
 ;; TXT Records
 jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
+email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
 
 ;; CNAME Records
-socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
 rs-branding.betterrecipes.com.	300	IN	CNAME	branding.rs-1035-a.com.
 rs-stripe.betterrecipes.com.	300	IN	CNAME	stripe.rs-1035-a.com.
+socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
 
 ;; A Records (IPv4 addresses)
-win.betterrecipes.com.	300	IN	A	162.242.243.45
-sweepsadmin.betterrecipes.com.	300	IN	A	162.242.243.45
-stg.win.betterrecipes.com.	300	IN	A	104.130.170.137
-www.betterrecipes.com.	300	IN	A	69.10.59.147
-secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134
-betterrecipes.com.	300	IN	A	69.10.59.147
-test.secure.recipes.betterrecipes.com.	300	IN	A	204.52.234.51
 *.betterrecipes.com.	300	IN	A	69.10.59.147
+betterrecipes.com.	300	IN	A	69.10.59.147
+rack.betterrecipes.com.	300	IN	A	146.20.52.117
+secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134
+stg.win.betterrecipes.com.	300	IN	A	104.130.170.137
+sweepsadmin.betterrecipes.com.	300	IN	A	162.242.243.45
+test.secure.recipes.betterrecipes.com.	300	IN	A	204.52.234.51
 unsubscribe.betterrecipes.com.	300	IN	A	162.242.243.45
+web1.betterrecipes.com.	300	IN	A	162.209.125.67
+web2.betterrecipes.com.	300	IN	A	162.209.125.69
+win.betterrecipes.com.	300	IN	A	162.242.243.45
+www.betterrecipes.com.	300	IN	A	69.10.59.147
