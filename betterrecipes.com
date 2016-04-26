@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-04-22 14:55:27
+;; Exported:   2016-04-26 14:53:14
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2021300352	; serial
+		2021334899	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -41,9 +41,11 @@ betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
 email.betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
 
 ;; TXT Records
-jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
-email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
+email.betterrecipes.com.	300	IN	TXT	"google-site-verification=LZ5KX_T7X6pNpJriCZf3iz_FUgzNd2i7nlupRBqsoOQ"
+email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
+jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
+maropost._domainkey.email.betterrecipes.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtO ie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJm eXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
 
 ;; CNAME Records
 rs-branding.betterrecipes.com.	300	IN	CNAME	branding.rs-1035-a.com.
@@ -53,6 +55,8 @@ socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
 ;; A Records (IPv4 addresses)
 *.betterrecipes.com.	300	IN	A	69.10.59.147
 betterrecipes.com.	300	IN	A	69.10.59.147
+email.betterrecipes.com.	300	IN	A	104.130.175.114
+links.email.betterrecipes.com.	300	IN	A	168.235.224.14
 rack.betterrecipes.com.	300	IN	A	146.20.52.117
 secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134
 stg.win.betterrecipes.com.	300	IN	A	104.130.170.137
