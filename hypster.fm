@@ -1,59 +1,57 @@
-; Domain: hypster.fm
-; Exported (y-m-d hh:mm:ss): 2016-04-04 07:27:38
-;
-; This file is intended for use for informational and archival
-; purposes ONLY and MUST be edited before use on a production
-; DNS server.
-;
-; In particular, you must update the SOA record with the correct
-; authoritative name server and contact e-mail address information,
-; and add the correct NS records for the name servers which will
-; be authoritative for this domain.
-;
-; For further information, please consult the BIND documentation
-; located on the following website:
-;
-; http://www.isc.org/
-;
-; And RFC 1035:
-;
-; http://www.ietf.org/rfc/rfc1035.txt
-;
-; Please note that we do NOT offer technical support for any use
-; of this zone data, the BIND name server, or any other third-
-; party DNS software.
-;
-; Use at your own risk.
+;; 
+;; Domain:     hypster.fm
+;; Exported:   2016-04-26 02:17:25
+;; 
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;; 
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;; 
+;; http://www.isc.org/
+;; 
+;; And RFC 1035:
+;; 
+;; http://www.ietf.org/rfc/rfc1035.txt
+;; 
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;; 
+;;     Use at your own risk.
+$ORIGIN .
+@	3600	IN	SOA	hypster.fm.	root.hypster.fm.	(
+		2021330364	; serial
+		7200		; refresh
+		3600		; retry
+		86400		; expire
+		3600)		; minimum
 
-; SOA Record
-HYPSTER.FM.	3600	IN	SOA	ns05.domaincontrol.com.	dns.jomax.net (
-				2013091600
-				28800
-				7200
-				604800
-				3600
-				)
 
-; A Records
-@	600	IN	A	216.151.212.109
 
-; CNAME Records
-calendar	3600	IN	CNAME	login.secureserver.net
-email	3600	IN	CNAME	email.secureserver.net
-fax	3600	IN	CNAME	login.secureserver.net
-files	3600	IN	CNAME	login.secureserver.net
-ftp	3600	IN	CNAME	@
-imap	3600	IN	CNAME	imap.secureserver.net
-mail	3600	IN	CNAME	pop.secureserver.net
-mobilemail	3600	IN	CNAME	mobilemail-v01.prod.mesa1.secureserver.net
-pop	3600	IN	CNAME	pop.secureserver.net
-smtp	3600	IN	CNAME	smtp.secureserver.net
-www	3600	IN	CNAME	@
+;; NS Records (YOU MUST CHANGE THIS)
+hypster.fm.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
-; MX Records
-@	3600	IN	MX	10	mailstore1.secureserver.net
-@	3600	IN	MX	0	smtp.secureserver.net
+;; MX Records
+hypster.fm.	300	IN	MX	0	smtp.secureserver.net.
+hypster.fm.	300	IN	MX	10	mailstore1.secureserver.net.
 
-; NS Records
-@	3600	IN	NS	ns05.domaincontrol.com
-@	3600	IN	NS	ns06.domaincontrol.com
+;; CNAME Records
+calendar.hypster.fm.	300	IN	CNAME	login.secureserver.net.
+email.hypster.fm.	300	IN	CNAME	email.secureserver.net.
+fax.hypster.fm.	300	IN	CNAME	login.secureserver.net.
+files.hypster.fm.	300	IN	CNAME	login.secureserver.net.
+ftp.hypster.fm.	300	IN	CNAME	hypster.fm.
+imap.hypster.fm.	300	IN	CNAME	imap.secureserver.net.
+mail.hypster.fm.	300	IN	CNAME	pop.secureserver.net.
+mobilemail.hypster.fm.	300	IN	CNAME	mobilemail-v01.prod.mesa1.secureserver.net.
+pop.hypster.fm.	300	IN	CNAME	pop.secureserver.net.
+smtp.hypster.fm.	300	IN	CNAME	smtp.secureserver.net.
+www.hypster.fm.	300	IN	CNAME	hypster.fm.
+
+;; A Records (IPv4 addresses)
+hypster.fm.	300	IN	A	216.151.212.109
