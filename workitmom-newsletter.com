@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     workitmom-newsletter.com
-;; Exported:   2016-04-26 14:56:03
+;; Exported:   2016-05-05 13:52:26
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	workitmom-newsletter.com.	root.workitmom-newsletter.com.	(
-		2021334916	; serial
+		2021412294	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,7 +37,8 @@ $ORIGIN .
 workitmom-newsletter.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
-workitmom-newsletter.com.	300	IN	MX	10	mail01.amperemedia.com.
+workitmom-newsletter.com.	300	IN	MX	10	mx1.emailsrvr.com.
+workitmom-newsletter.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
 _domainkey.workitmom-newsletter.com.	300	IN	TXT	"t=y\; o=-\;"
