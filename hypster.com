@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-04-26 02:17:00
+;; Exported:   2016-09-02 14:25:46
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2021330362	; serial
+		2022449294	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -64,6 +64,7 @@ www.hypster.com.	300	IN	CNAME	hypster.com.
 ;; A Records (IPv4 addresses)
 admin.hypster.com.	300	IN	A	216.240.146.2
 admintest.hypster.com.	300	IN	A	216.240.146.2
+base.hypster.com.	300	IN	A	162.242.226.18
 dev.hypster.com.	300	IN	A	216.240.146.2
 embed.hypster.com.	300	IN	A	162.243.200.43
 hyp109.hypster.com.	300	IN	A	216.151.212.109
