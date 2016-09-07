@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-09-02 14:25:46
+;; Exported:   2016-09-07 18:46:52
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2022449294	; serial
+		2022494061	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -62,6 +62,7 @@ smtp.hypster.com.	300	IN	CNAME	smtp.secureserver.net.
 www.hypster.com.	300	IN	CNAME	hypster.com.
 
 ;; A Records (IPv4 addresses)
+admin.base.hypster.com.	300	IN	A	162.242.226.18
 admin.hypster.com.	300	IN	A	216.240.146.2
 admintest.hypster.com.	300	IN	A	216.240.146.2
 base.hypster.com.	300	IN	A	162.242.226.18
