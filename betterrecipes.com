@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-07-25 15:36:09
+;; Exported:   2016-09-15 21:42:26
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2022112756	; serial
+		2022564234	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -54,8 +54,8 @@ rs-stripe.betterrecipes.com.	300	IN	CNAME	stripe.rs-1035-a.com.
 socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
 
 ;; A Records (IPv4 addresses)
-*.betterrecipes.com.	300	IN	A	69.10.59.147
-betterrecipes.com.	300	IN	A	69.10.59.147
+*.betterrecipes.com.	300	IN	A	146.20.52.117
+betterrecipes.com.	300	IN	A	146.20.52.117
 email.betterrecipes.com.	300	IN	A	104.130.175.114
 links.email.betterrecipes.com.	300	IN	A	168.235.224.14
 rack.betterrecipes.com.	300	IN	A	146.20.52.117
@@ -68,4 +68,4 @@ unsubscribe.betterrecipes.com.	300	IN	A	162.242.243.45
 web1.betterrecipes.com.	300	IN	A	162.209.125.67
 web2.betterrecipes.com.	300	IN	A	162.209.125.69
 win.betterrecipes.com.	300	IN	A	162.242.243.45
-www.betterrecipes.com.	300	IN	A	69.10.59.147
+www.betterrecipes.com.	300	IN	A	146.20.52.117
