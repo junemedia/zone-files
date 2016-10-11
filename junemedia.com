@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2016-09-22 14:36:43
+;; Exported:   2016-10-11 16:05:12
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2022622160	; serial
+		2022786851	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -62,24 +62,11 @@ stgdb.junemedia.com.	300	IN	CNAME	a525a02442eb32ce6698509dc480168c11ae2a4f.racks
 b.junemedia.com.	300	IN	A	104.130.175.114
 barracuda.junemedia.com.	300	IN	A	104.130.175.114
 bdocs.junemedia.com.	300	IN	A	104.130.175.114
-br.junemedia.com.	300	IN	A	216.48.124.14
 brsweeps.junemedia.com.	300	IN	A	104.130.170.85
-brwin.junemedia.com.	300	IN	A	216.48.124.14
 calendar.junemedia.com.	300	IN	A	50.63.179.147
-cibrwin.junemedia.com.	300	IN	A	216.48.124.14
-em.junemedia.com.	300	IN	A	216.24.224.41
 junemedia.com.	300	IN	A	104.130.175.114
-mail.junemedia.com.	300	IN	A	216.150.141.170
-mailout01.em.junemedia.com.	300	IN	A	216.24.225.125
-mailout02.em.junemedia.com.	300	IN	A	216.24.225.126
-mailout03.em.junemedia.com.	300	IN	A	216.24.225.127
-mailout04.em.junemedia.com.	300	IN	A	216.24.225.128
-mailout05.em.junemedia.com.	300	IN	A	216.24.225.129
-niblets.junemedia.com.	300	IN	A	162.242.248.108
+niblets.junemedia.com.	300	IN	A	104.130.175.114
 ox-d.junemedia.com.	300	IN	A	104.130.175.114
-slvcrtex-dag.junemedia.com.	300	IN	A	216.150.141.169
-slvcrtex01.junemedia.com.	300	IN	A	216.150.141.134
-slvcrtex2010.junemedia.com.	300	IN	A	216.150.141.170
 stage.junemedia.com.	300	IN	A	162.242.248.108
 tech.junemedia.com.	300	IN	A	104.130.170.114
 vpnil.junemedia.com.	300	IN	A	66.54.186.254
