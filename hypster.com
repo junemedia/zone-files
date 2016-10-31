@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-09-07 18:46:52
+;; Exported:   2016-10-31 17:04:03
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2022494061	; serial
+		2022960004	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -62,10 +62,10 @@ smtp.hypster.com.	300	IN	CNAME	smtp.secureserver.net.
 www.hypster.com.	300	IN	CNAME	hypster.com.
 
 ;; A Records (IPv4 addresses)
-admin.base.hypster.com.	300	IN	A	162.242.226.18
 admin.hypster.com.	300	IN	A	216.240.146.2
+admin.rack.hypster.com.	300	IN	A	104.130.168.5
+admin.stage.hypster.com.	300	IN	A	162.242.226.18
 admintest.hypster.com.	300	IN	A	216.240.146.2
-base.hypster.com.	300	IN	A	162.242.226.18
 dev.hypster.com.	300	IN	A	216.240.146.2
 embed.hypster.com.	300	IN	A	162.243.200.43
 hyp109.hypster.com.	300	IN	A	216.151.212.109
@@ -80,9 +80,11 @@ news109.hypster.com.	300	IN	A	216.151.212.109
 news110.hypster.com.	300	IN	A	216.151.212.110
 old.hypster.com.	300	IN	A	216.240.146.2
 pics.hypster.com.	300	IN	A	216.240.146.2
+rack.hypster.com.	300	IN	A	104.130.168.5
 scm.hypster.com.	300	IN	A	216.240.146.2
 scmtest.hypster.com.	300	IN	A	216.240.146.2
 senses.hypster.com.	300	IN	A	216.240.146.2
+stage.hypster.com.	300	IN	A	162.242.226.18
 stagetest.hypster.com.	300	IN	A	216.240.146.2
 tablet.hypster.com.	300	IN	A	216.240.146.2
 tv.hypster.com.	300	IN	A	216.240.146.2
