@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     oceanup.com
-;; Exported:   2016-02-15 17:55:35
+;; Exported:   2016-10-31 18:37:56
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	oceanup.com.	root.oceanup.com.	(
-		2020722553	; serial
+		2022960567	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -40,9 +40,9 @@ oceanup.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 oceanup.com.	300	IN	MX	10	mx-biz.mail.am0.yahoodns.net.
 
 ;; A Records (IPv4 addresses)
-stage.oceanup.com.	300	IN	A	172.99.68.215
-dev.oceanup.com.	300	IN	A	172.99.68.215
 *.oceanup.com.	300	IN	A	104.130.42.74
-www.oceanup.com.	300	IN	A	104.130.42.74
-archive.oceanup.com.	300	IN	A	172.99.68.215
+archive.oceanup.com.	300	IN	A	162.242.223.158
+dev.oceanup.com.	300	IN	A	162.242.223.158
 oceanup.com.	300	IN	A	104.130.42.74
+stage.oceanup.com.	300	IN	A	162.242.223.158
+www.oceanup.com.	300	IN	A	104.130.42.74
