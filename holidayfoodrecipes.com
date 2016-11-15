@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     holidayfoodrecipes.com
-;; Exported:   2016-02-15 17:29:47
+;; Exported:   2016-11-15 20:42:34
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	holidayfoodrecipes.com.	root.holidayfoodrecipes.com.	(
-		2020722398	; serial
+		2023090915	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -36,12 +36,6 @@ $ORIGIN .
 ;; NS Records (YOU MUST CHANGE THIS)
 holidayfoodrecipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
-;; TXT Records
-holidayfoodrecipes.com.	300	IN	TXT	"v=spf1 mx -all"
-
 ;; A Records (IPv4 addresses)
-ww2.holidayfoodrecipes.com.	300	IN	A	216.48.124.244
-holidayfoodrecipes.com.	300	IN	A	216.48.124.244
-www.holidayfoodrecipes.com.	300	IN	A	216.48.124.244
-www2.holidayfoodrecipes.com.	300	IN	A	216.48.124.244
-www3.holidayfoodrecipes.com.	300	IN	A	216.48.124.6
+holidayfoodrecipes.com.	300	IN	A	104.239.182.207
+www.holidayfoodrecipes.com.	300	IN	A	104.239.182.207
