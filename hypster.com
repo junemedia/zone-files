@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-10-31 17:04:03
+;; Exported:   2016-11-15 17:11:15
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2022960004	; serial
+		2023089647	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -68,37 +68,23 @@ admin.stage.hypster.com.	300	IN	A	162.242.226.18
 admintest.hypster.com.	300	IN	A	216.240.146.2
 dev.hypster.com.	300	IN	A	216.240.146.2
 embed.hypster.com.	300	IN	A	162.243.200.43
-hyp109.hypster.com.	300	IN	A	216.151.212.109
-hyp110.hypster.com.	300	IN	A	216.151.212.110
 hypster.com.	300	IN	A	216.240.146.2
 mail.hypster.com.	300	IN	A	198.1.100.186
+maint.hypster.com.	300	IN	A	104.130.168.5
 marketing.hypster.com.	300	IN	A	107.170.38.98
 mobile.hypster.com.	300	IN	A	216.240.146.2
 new.hypster.com.	300	IN	A	216.240.146.2
 news.hypster.com.	300	IN	A	216.240.146.2
-news109.hypster.com.	300	IN	A	216.151.212.109
-news110.hypster.com.	300	IN	A	216.151.212.110
 old.hypster.com.	300	IN	A	216.240.146.2
 pics.hypster.com.	300	IN	A	216.240.146.2
 rack.hypster.com.	300	IN	A	104.130.168.5
+rack.senses.hypster.com.	300	IN	A	104.130.168.5
 scm.hypster.com.	300	IN	A	216.240.146.2
-scmtest.hypster.com.	300	IN	A	216.240.146.2
+scmtest.hypster.com.	300	IN	A	104.130.168.5
 senses.hypster.com.	300	IN	A	216.240.146.2
 stage.hypster.com.	300	IN	A	162.242.226.18
 stagetest.hypster.com.	300	IN	A	216.240.146.2
 tablet.hypster.com.	300	IN	A	216.240.146.2
 tv.hypster.com.	300	IN	A	216.240.146.2
-tv109.hypster.com.	300	IN	A	216.151.212.109
-tv110.hypster.com.	300	IN	A	216.151.212.110
-tvtest.hypster.com.	300	IN	A	216.240.146.2
-v3.hypster.com.	300	IN	A	216.240.146.2
-v3admin.hypster.com.	300	IN	A	216.240.146.2
-v3mobile.hypster.com.	300	IN	A	216.240.146.2
-v3news.hypster.com.	300	IN	A	216.240.146.2
-v3old.hypster.com.	300	IN	A	216.240.146.2
-v3pics.hypster.com.	300	IN	A	216.240.146.2
-v3scm.hypster.com.	300	IN	A	216.240.146.2
-v3tablet.hypster.com.	300	IN	A	216.240.146.2
-v3tv.hypster.com.	300	IN	A	216.240.146.2
-v3www.hypster.com.	300	IN	A	216.240.146.2
 voice.hypster.com.	300	IN	A	216.240.146.2
+win.hypster.com.	300	IN	A	23.253.156.54
