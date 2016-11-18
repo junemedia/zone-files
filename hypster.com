@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-11-18 22:01:01
+;; Exported:   2016-11-18 22:12:22
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023117306	; serial
+		2023117374	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -47,17 +47,8 @@ hypster.com.	300	IN	MX	5	alt2.aspmx.l.google.com.
 hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcjGEjtS8rWWrz2s"
 
 ;; CNAME Records
-calendar.hypster.com.	300	IN	CNAME	login.secureserver.net.
-email.hypster.com.	300	IN	CNAME	email.secureserver.net.
-fax.hypster.com.	300	IN	CNAME	login.secureserver.net.
-files.hypster.com.	300	IN	CNAME	login.secureserver.net.
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
-imap.hypster.com.	300	IN	CNAME	imap.secureserver.net.
-mail_tmp.hypster.com.	300	IN	CNAME	pop.secureserver.net.
-mobilemail.hypster.com.	300	IN	CNAME	mobilemail-v01.prod.mesa1.secureserver.net.
-pop.hypster.com.	300	IN	CNAME	pop.secureserver.net.
-smtp.hypster.com.	300	IN	CNAME	smtp.secureserver.net.
 www.hypster.com.	300	IN	CNAME	hypster.com.
 
 ;; A Records (IPv4 addresses)
@@ -66,10 +57,8 @@ admin.rack.hypster.com.	300	IN	A	104.130.165.100
 admin.stage.hypster.com.	300	IN	A	162.242.226.18
 admintest.hypster.com.	300	IN	A	216.240.146.2
 dev.hypster.com.	300	IN	A	216.240.146.2
-embed.hypster.com.	300	IN	A	162.243.200.43
 hypster.com.	300	IN	A	216.240.146.2
 maint.hypster.com.	300	IN	A	104.130.165.100
-marketing.hypster.com.	300	IN	A	107.170.38.98
 mobile.hypster.com.	300	IN	A	216.240.146.2
 new.hypster.com.	300	IN	A	216.240.146.2
 news.hypster.com.	300	IN	A	216.240.146.2
