@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-11-18 21:54:42
+;; Exported:   2016-11-18 22:01:01
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023117268	; serial
+		2023117306	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -42,7 +42,6 @@ hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
 hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.
 hypster.com.	300	IN	MX	5	alt1.aspmx.l.google.com.
 hypster.com.	300	IN	MX	5	alt2.aspmx.l.google.com.
-mail.hypster.com.	300	IN	MX	10	mail.hypster.com.
 
 ;; TXT Records
 hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcjGEjtS8rWWrz2s"
@@ -69,7 +68,6 @@ admintest.hypster.com.	300	IN	A	216.240.146.2
 dev.hypster.com.	300	IN	A	216.240.146.2
 embed.hypster.com.	300	IN	A	162.243.200.43
 hypster.com.	300	IN	A	216.240.146.2
-mail.hypster.com.	300	IN	A	198.1.100.186
 maint.hypster.com.	300	IN	A	104.130.165.100
 marketing.hypster.com.	300	IN	A	107.170.38.98
 mobile.hypster.com.	300	IN	A	216.240.146.2
