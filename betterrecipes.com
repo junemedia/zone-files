@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-09-15 21:42:26
+;; Exported:   2016-11-22 16:03:34
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2022564234	; serial
+		2023149721	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,7 +37,6 @@ $ORIGIN .
 betterrecipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
-betterrecipes.com.	300	IN	MX	10	mail01.amperemedia.com.
 email.betterrecipes.com.	300	IN	MX	10	mx1.emailsrvr.com.
 email.betterrecipes.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
@@ -61,9 +60,7 @@ links.email.betterrecipes.com.	300	IN	A	168.235.224.14
 rack.betterrecipes.com.	300	IN	A	146.20.52.117
 secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134
 stage.win.betterrecipes.com.	300	IN	A	104.130.7.245
-stg.win.betterrecipes.com.	300	IN	A	104.130.170.137
 sweepsadmin.betterrecipes.com.	300	IN	A	162.242.243.45
-test.secure.recipes.betterrecipes.com.	300	IN	A	204.52.234.51
 unsubscribe.betterrecipes.com.	300	IN	A	162.242.243.45
 web1.betterrecipes.com.	300	IN	A	162.209.125.67
 web2.betterrecipes.com.	300	IN	A	162.209.125.69
