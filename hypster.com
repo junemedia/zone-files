@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-11-18 22:12:22
+;; Exported:   2016-12-09 15:52:36
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;;     Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023117374	; serial
+		2023296535	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -49,6 +49,7 @@ hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcj
 ;; CNAME Records
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
+sweepsadmin.hypster.com.	300	IN	CNAME	win.hypster.com.
 www.hypster.com.	300	IN	CNAME	hypster.com.
 
 ;; A Records (IPv4 addresses)
@@ -56,6 +57,7 @@ admin.hypster.com.	300	IN	A	216.240.146.2
 admin.rack.hypster.com.	300	IN	A	104.130.165.100
 admin.stage.hypster.com.	300	IN	A	162.242.226.18
 admintest.hypster.com.	300	IN	A	216.240.146.2
+api.hypster.com.	300	IN	A	162.242.226.18
 dev.hypster.com.	300	IN	A	216.240.146.2
 hypster.com.	300	IN	A	216.240.146.2
 maint.hypster.com.	300	IN	A	104.130.165.100
