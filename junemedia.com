@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2016-10-11 16:05:12
+;; Exported:   2017-02-03 16:26:14
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2022786851	; serial
+		2023780577	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -66,11 +66,10 @@ brsweeps.junemedia.com.	300	IN	A	104.130.170.85
 calendar.junemedia.com.	300	IN	A	50.63.179.147
 junemedia.com.	300	IN	A	104.130.175.114
 niblets.junemedia.com.	300	IN	A	104.130.175.114
-ox-d.junemedia.com.	300	IN	A	104.130.175.114
 stage.junemedia.com.	300	IN	A	162.242.248.108
 tech.junemedia.com.	300	IN	A	104.130.170.114
 vpnil.junemedia.com.	300	IN	A	66.54.186.254
 vpnny.junemedia.com.	300	IN	A	66.117.119.138
 webmail.junemedia.com.	300	IN	A	104.130.175.114
-wp.junemedia.com.	300	IN	A	104.239.172.14
+wp.junemedia.com.	300	IN	A	104.130.175.114
 www.junemedia.com.	300	IN	A	104.130.175.114
