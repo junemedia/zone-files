@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2016-12-09 15:52:36
+;; Exported:   2017-02-07 16:21:39
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023296535	; serial
+		2023815109	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -38,42 +38,38 @@ hypster.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 hypster.com.	300	IN	MX	1	aspmx.l.google.com.
-hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
-hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.
 hypster.com.	300	IN	MX	5	alt1.aspmx.l.google.com.
 hypster.com.	300	IN	MX	5	alt2.aspmx.l.google.com.
+hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
+hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.
 
 ;; TXT Records
 hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcjGEjtS8rWWrz2s"
 
 ;; CNAME Records
+api.hypster.com.	300	IN	CNAME	stage.hypster.com.
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
 sweepsadmin.hypster.com.	300	IN	CNAME	win.hypster.com.
+unsubscribe.hypster.com.	300	IN	CNAME	win.hypster.com.
 www.hypster.com.	300	IN	CNAME	hypster.com.
 
 ;; A Records (IPv4 addresses)
-admin.hypster.com.	300	IN	A	216.240.146.2
-admin.rack.hypster.com.	300	IN	A	104.130.165.100
+admin.hypster.com.	300	IN	A	104.130.165.100
 admin.stage.hypster.com.	300	IN	A	162.242.226.18
-admintest.hypster.com.	300	IN	A	216.240.146.2
-api.hypster.com.	300	IN	A	162.242.226.18
-dev.hypster.com.	300	IN	A	216.240.146.2
-hypster.com.	300	IN	A	216.240.146.2
+archive.hypster.com.	300	IN	A	216.240.146.2
+dev.hypster.com.	300	IN	A	162.242.226.18
+hypster.com.	300	IN	A	104.130.165.100
 maint.hypster.com.	300	IN	A	104.130.165.100
-mobile.hypster.com.	300	IN	A	216.240.146.2
-new.hypster.com.	300	IN	A	216.240.146.2
-news.hypster.com.	300	IN	A	216.240.146.2
-old.hypster.com.	300	IN	A	216.240.146.2
-pics.hypster.com.	300	IN	A	216.240.146.2
-rack.hypster.com.	300	IN	A	104.130.165.100
-rack.senses.hypster.com.	300	IN	A	104.130.165.100
-scm.hypster.com.	300	IN	A	216.240.146.2
-scmtest.hypster.com.	300	IN	A	104.130.165.100
-senses.hypster.com.	300	IN	A	216.240.146.2
+mobile.hypster.com.	300	IN	A	104.130.165.100
+new.hypster.com.	300	IN	A	104.130.165.100
+news.hypster.com.	300	IN	A	104.130.165.100
+pics.hypster.com.	300	IN	A	104.130.165.100
+scm.hypster.com.	300	IN	A	104.130.165.100
+senses.hypster.com.	300	IN	A	104.130.165.100
 stage.hypster.com.	300	IN	A	162.242.226.18
-stagetest.hypster.com.	300	IN	A	216.240.146.2
-tablet.hypster.com.	300	IN	A	216.240.146.2
-tv.hypster.com.	300	IN	A	216.240.146.2
+stage.win.hypster.com.	300	IN	A	162.242.221.47
+tablet.hypster.com.	300	IN	A	104.130.165.100
+tv.hypster.com.	300	IN	A	104.130.165.100
 voice.hypster.com.	300	IN	A	216.240.146.2
 win.hypster.com.	300	IN	A	23.253.156.54
