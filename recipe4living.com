@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2016-11-22 16:37:36
+;; Exported:   2017-02-14 17:41:33
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2023149925	; serial
+		2023876069	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,7 +37,8 @@ $ORIGIN .
 recipe4living.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
-recipe4living.com.	300	IN	MX	10	mail01.amperemedia.com.
+recipe4living.com.	300	IN	MX	10	mx1.emailsrvr.com.
+recipe4living.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
