@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2017-02-07 16:21:39
+;; Exported:   2017-02-28 19:04:08
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023815109	; serial
+		2023997524	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,6 +37,8 @@ $ORIGIN .
 hypster.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
+e.hypster.com.	300	IN	MX	10	mx1.emailsrvr.com.
+e.hypster.com.	300	IN	MX	20	mx2.emailsrvr.com.
 hypster.com.	300	IN	MX	1	aspmx.l.google.com.
 hypster.com.	300	IN	MX	5	alt1.aspmx.l.google.com.
 hypster.com.	300	IN	MX	5	alt2.aspmx.l.google.com.
@@ -44,10 +46,13 @@ hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
 hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.
 
 ;; TXT Records
+e.hypster.com.	300	IN	TXT	"google-site-verification=HpV8V3UnOnyeX2jTYmvO50DFAUjAnRzQhHiFe3KHCac"
+e.hypster.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcjGEjtS8rWWrz2s"
+maropost._domainkey.e.hypster.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtOie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJmeXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
 
 ;; CNAME Records
-api.hypster.com.	300	IN	CNAME	stage.hypster.com.
+api.hypster.com.	300	IN	CNAME	hypster.com.
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
 sweepsadmin.hypster.com.	300	IN	CNAME	win.hypster.com.
@@ -57,9 +62,11 @@ www.hypster.com.	300	IN	CNAME	hypster.com.
 ;; A Records (IPv4 addresses)
 admin.hypster.com.	300	IN	A	104.130.165.100
 admin.stage.hypster.com.	300	IN	A	162.242.226.18
+api.stage.hypster.com.	300	IN	A	162.242.226.18
 archive.hypster.com.	300	IN	A	216.240.146.2
 dev.hypster.com.	300	IN	A	162.242.226.18
 hypster.com.	300	IN	A	104.130.165.100
+links.e.hypster.com.	300	IN	A	168.235.224.14
 maint.hypster.com.	300	IN	A	104.130.165.100
 mobile.hypster.com.	300	IN	A	104.130.165.100
 new.hypster.com.	300	IN	A	104.130.165.100
