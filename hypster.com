@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2017-02-28 19:04:08
+;; Exported:   2017-03-07 17:32:28
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2023997524	; serial
+		2024057454	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -46,7 +46,7 @@ hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
 hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.
 
 ;; TXT Records
-e.hypster.com.	300	IN	TXT	"google-site-verification=HpV8V3UnOnyeX2jTYmvO50DFAUjAnRzQhHiFe3KHCac"
+e.hypster.com.	300	IN	TXT	"google-site-verification=pyNfensNCEMEeOtJv8idyyJFeRZ9OBsjOZSvVklj1Oo"
 e.hypster.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 hypster.com.	300	IN	TXT	"google-site-verification=dKCZc99foKleNxGd0AoI753tPdobcjGEjtS8rWWrz2s"
 maropost._domainkey.e.hypster.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtOie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJmeXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
