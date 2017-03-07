@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2017-03-07 17:32:28
+;; Exported:   2017-03-07 17:36:28
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2024057454	; serial
+		2024057478	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -75,8 +75,6 @@ pics.hypster.com.	300	IN	A	104.130.165.100
 scm.hypster.com.	300	IN	A	104.130.165.100
 senses.hypster.com.	300	IN	A	104.130.165.100
 stage.hypster.com.	300	IN	A	162.242.226.18
-stage.win.hypster.com.	300	IN	A	162.242.221.47
 tablet.hypster.com.	300	IN	A	104.130.165.100
 tv.hypster.com.	300	IN	A	104.130.165.100
 voice.hypster.com.	300	IN	A	216.240.146.2
-win.hypster.com.	300	IN	A	23.253.156.54
