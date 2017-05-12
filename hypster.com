@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2017-05-12 20:22:15
+;; Exported:   2017-05-12 20:44:22
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2024628713	; serial
+		2024628846	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -50,7 +50,7 @@ e.hypster.com.	300	IN	TXT	"google-site-verification=pyNfensNCEMEeOtJv8idyyJFeRZ9
 e.hypster.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 google._domainkey.hypster.com.	300	IN	TXT	"v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmgGatGJOIAPZXJaF8VeUSWTzZ2mq7ryw5GuQ6VAPqoLb0OsMhwgr6r/f1gYn5tV1aTQFMoY3FggVsx3MG8toEXh/61KUQcR+IaPj9Et5KvFzyElLlRJOuApY6Mt5MvkXVsK4JHYCEdL2Fn4Uaj/YduPCbTWyWrqXg1jZgzQDCmqZNb1GuAYV2d0tl3iUu47" "lDcbB1S7cyifqNvJsgW8bfkbhTjk9yjaoTJFE8/RsrWJNSReFSYNvbC5yG+5XUZAzUBIRLYqPw/QJtl8qnuxaJ5x60trhyQYEyb1655nAPZM5FMhdLsHa5EvCf49qgg67l0/UKErQShQfZWMTsG0qXQIDAQAB"
 hypster.com.	300	IN	TXT	"google-site-verification=8hdP2uxzvlW53WodxOAnO4aHaY4tBNd8tzVqu5QPCJg"
-hypster.com.	300	IN	TXT	"v=spf1 include:_spf.google.com -all"
+hypster.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com include:_spf.google.com -all"
 maropost._domainkey.e.hypster.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtOie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJmeXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
 
 ;; CNAME Records
