@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2017-03-07 17:36:28
+;; Exported:   2017-05-12 16:52:49
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2024057478	; serial
+		2024627456	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,7 +34,7 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-hypster.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+hypster.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 e.hypster.com.	300	IN	MX	10	mx1.emailsrvr.com.
@@ -55,6 +55,7 @@ maropost._domainkey.e.hypster.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0
 api.hypster.com.	300	IN	CNAME	hypster.com.
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
+liveintent.hypster.com.	300	IN	CNAME	0a485baf706aeb7e705dbd632f169c5a.edgesuite.net.
 sweepsadmin.hypster.com.	300	IN	CNAME	win.hypster.com.
 unsubscribe.hypster.com.	300	IN	CNAME	win.hypster.com.
 www.hypster.com.	300	IN	CNAME	hypster.com.
