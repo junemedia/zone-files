@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2016-11-22 16:03:34
+;; Exported:   2017-05-31 14:58:20
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2023149721	; serial
+		2024790930	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,31 +34,38 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-betterrecipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+betterrecipes.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
+betterrecipes.com.	300	IN	MX	10	mx1.emailsrvr.com.
+betterrecipes.com.	300	IN	MX	20	mx2.emailsrvr.com.
 email.betterrecipes.com.	300	IN	MX	10	mx1.emailsrvr.com.
 email.betterrecipes.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
+betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=none\; rua=mailto:postmaster@betterrecipes.com\; ruf=mailto:postmaster@betterrecipes.com"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
 email.betterrecipes.com.	300	IN	TXT	"google-site-verification=LZ5KX_T7X6pNpJriCZf3iz_FUgzNd2i7nlupRBqsoOQ"
 email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
+jm._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCszSLWyMJnhb1g6+tFGQGWT+QdW1SDPkgNoHx+OjLjV2/8VWCz9r3gCyZvPSPGc4qcwIFyosJpHGCzv5ZWgDSbuRsX6NwsKWRmBVaLsjCSv2FnNGBcc2hCyEMQqucrl6YYfkK1ufSikMtMZEPwmjLx9BzRiSvuzdieEvHO0MpnpQIDAQAB"
 maropost._domainkey.email.betterrecipes.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtO ie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJm eXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
 
 ;; CNAME Records
 rs-branding.betterrecipes.com.	300	IN	CNAME	branding.rs-1035-a.com.
 rs-stripe.betterrecipes.com.	300	IN	CNAME	stripe.rs-1035-a.com.
 socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
+track.betterrecipes.com.	300	IN	CNAME	jngo.net.
 
 ;; A Records (IPv4 addresses)
 *.betterrecipes.com.	300	IN	A	146.20.52.117
+*.stage.betterrecipes.com.	300	IN	A	146.20.110.242
 betterrecipes.com.	300	IN	A	146.20.52.117
 email.betterrecipes.com.	300	IN	A	104.130.175.114
 links.email.betterrecipes.com.	300	IN	A	168.235.224.14
 rack.betterrecipes.com.	300	IN	A	146.20.52.117
 secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134
+stage.betterrecipes.com.	300	IN	A	146.20.110.242
 stage.win.betterrecipes.com.	300	IN	A	104.130.7.245
 sweepsadmin.betterrecipes.com.	300	IN	A	162.242.243.45
 unsubscribe.betterrecipes.com.	300	IN	A	162.242.243.45
