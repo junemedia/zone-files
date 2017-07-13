@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2017-02-14 17:41:33
+;; Exported:   2017-06-29 11:14:57
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2023876069	; serial
+		2025040149	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,7 +34,7 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-recipe4living.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+recipe4living.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 recipe4living.com.	300	IN	MX	10	mx1.emailsrvr.com.
@@ -60,6 +60,9 @@ r.recipe4living.com.	300	IN	A	216.174.43.130
 recipe4living.com.	300	IN	A	104.239.182.207
 stage.recipe4living.com.	300	IN	A	104.130.231.94
 stage.win.recipe4living.com.	300	IN	A	104.130.7.245
+w1.recipe4living.com.	300	IN	A	104.130.3.186
+w2.recipe4living.com.	300	IN	A	104.239.167.147
+w3.recipe4living.com.	300	IN	A	104.130.25.243
+w4.recipe4living.com.	300	IN	A	162.242.241.126
 win.recipe4living.com.	300	IN	A	162.242.243.45
-ww2.recipe4living.com.	300	IN	A	207.45.160.146
 www.recipe4living.com.	300	IN	A	104.239.182.207
