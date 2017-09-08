@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2017-06-29 11:14:57
+;; Exported:   2017-09-08 14:27:15
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2025040149	; serial
+		2025654743	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -53,11 +53,13 @@ videos.recipe4living.com.	300	IN	CNAME	videosection.egslb.aol.com.
 ;; A Records (IPv4 addresses)
 android.recipe4living.com.	300	IN	A	104.239.182.207
 answers.recipe4living.com.	300	IN	A	65.77.130.163
+api.recipe4living.com.	300	IN	A	104.130.3.186
 apple.recipe4living.com.	300	IN	A	104.239.182.207
 betterrecipes.recipe4living.com.	300	IN	A	216.48.124.17
 pics.recipe4living.com.	300	IN	A	104.130.230.142
 r.recipe4living.com.	300	IN	A	216.174.43.130
 recipe4living.com.	300	IN	A	104.239.182.207
+stage.api.recipe4living.com.	300	IN	A	104.130.231.94
 stage.recipe4living.com.	300	IN	A	104.130.231.94
 stage.win.recipe4living.com.	300	IN	A	104.130.7.245
 w1.recipe4living.com.	300	IN	A	104.130.3.186
