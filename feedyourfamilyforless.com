@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     feedyourfamilyforless.com
-;; Exported:   2016-02-15 16:49:27
+;; Exported:   2017-10-03 16:47:08
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	feedyourfamilyforless.com.	root.feedyourfamilyforless.com.	(
-		2020722156	; serial
+		2025871582	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,14 +34,10 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-feedyourfamilyforless.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+feedyourfamilyforless.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; TXT Records
-feedyourfamilyforless.com.	300	IN	TXT	"v=spf1 mx -all"
+feedyourfamilyforless.com.	300	IN	TXT	"v=spf1 -all"
 
 ;; A Records (IPv4 addresses)
-ww2.feedyourfamilyforless.com.	300	IN	A	216.48.124.244
 feedyourfamilyforless.com.	300	IN	A	216.48.124.244
-www.feedyourfamilyforless.com.	300	IN	A	216.48.124.244
-www2.feedyourfamilyforless.com.	300	IN	A	216.48.124.244
-www3.feedyourfamilyforless.com.	300	IN	A	216.48.124.6

@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     mylowcostrecipes.com
-;; Exported:   2016-02-15 17:55:07
+;; Exported:   2017-10-03 16:48:10
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	mylowcostrecipes.com.	root.mylowcostrecipes.com.	(
-		2020722550	; serial
+		2025871589	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,14 +34,10 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-mylowcostrecipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+mylowcostrecipes.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; TXT Records
-mylowcostrecipes.com.	300	IN	TXT	"v=spf1 mx -all"
+mylowcostrecipes.com.	300	IN	TXT	"v=spf1 -all"
 
 ;; A Records (IPv4 addresses)
-ww2.mylowcostrecipes.com.	300	IN	A	216.48.124.244
 mylowcostrecipes.com.	300	IN	A	216.48.124.244
-www.mylowcostrecipes.com.	300	IN	A	216.48.124.244
-www2.mylowcostrecipes.com.	300	IN	A	216.48.124.244
-www3.mylowcostrecipes.com.	300	IN	A	216.48.124.6

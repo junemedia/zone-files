@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     askthecookingexpert.com
-;; Exported:   2016-02-15 16:32:29
+;; Exported:   2017-10-03 17:07:25
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	askthecookingexpert.com.	root.askthecookingexpert.com.	(
-		2020722054	; serial
+		2025871704	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,7 +34,10 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-askthecookingexpert.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+askthecookingexpert.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
+
+;; TXT Records
+askthecookingexpert.com.	300	IN	TXT	"v=spf1 -all"
 
 ;; CNAME Records
 www.askthecookingexpert.com.	300	IN	CNAME	askthecookingexpert.com.
