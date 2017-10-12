@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2017-02-03 16:26:14
+;; Exported:   2017-10-12 17:23:53
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2023780577	; serial
+		2025949563	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,7 +34,7 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-junemedia.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+junemedia.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 em.junemedia.com.	300	IN	MX	0	mail.cp20.com.
@@ -67,7 +67,8 @@ calendar.junemedia.com.	300	IN	A	50.63.179.147
 junemedia.com.	300	IN	A	104.130.175.114
 niblets.junemedia.com.	300	IN	A	104.130.175.114
 stage.junemedia.com.	300	IN	A	162.242.248.108
-tech.junemedia.com.	300	IN	A	104.130.170.114
+stage.niblets.junemedia.com.	300	IN	A	162.242.248.108
+tech.junemedia.com.	300	IN	A	104.130.175.114
 vpnil.junemedia.com.	300	IN	A	66.54.186.254
 vpnny.junemedia.com.	300	IN	A	66.117.119.138
 webmail.junemedia.com.	300	IN	A	104.130.175.114
