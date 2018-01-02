@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     savvyfork.com
-;; Exported:   2017-11-15 18:43:16
+;; Exported:   2018-01-02 21:04:40
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	savvyfork.com.	root.savvyfork.com.	(
-		2026243799	; serial
+		2026659368	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -55,7 +55,7 @@ savvyfork.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
 
 ;; CNAME Records
 li.savvyfork.com.	300	IN	CNAME	ed88fd178c59360b2d97f044b78a24ff.edgesuite.net.
-m.savvyfork.com.	300	IN	CNAME	cloudhostedresources.com.
+m.savvyfork.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
 www.savvyfork.com.	300	IN	CNAME	savvyfork.com.
 
 ;; A Records (IPv4 addresses)
