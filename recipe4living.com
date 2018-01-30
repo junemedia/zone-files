@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2017-09-08 14:48:48
+;; Exported:   2018-01-30 16:42:27
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2025654872	; serial
+		2026899714	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -44,7 +44,7 @@ recipe4living.com.	300	IN	MX	20	mx2.emailsrvr.com.
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
 
 ;; CNAME Records
-m.recipe4living.com.	300	IN	CNAME	cloudhostedresources.com.
+m.recipe4living.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
 
 ;; A Records (IPv4 addresses)
 api.recipe4living.com.	300	IN	A	104.130.3.186
