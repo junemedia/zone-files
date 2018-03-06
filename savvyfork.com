@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     savvyfork.com
-;; Exported:   2018-01-02 21:04:40
+;; Exported:   2018-03-06 16:48:36
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	savvyfork.com.	root.savvyfork.com.	(
-		2026659368	; serial
+		2027202151	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -49,7 +49,7 @@ savvyfork.com.	300	IN	MX	30	aspmx2.googlemail.com.
 savvyfork.com.	300	IN	MX	30	aspmx3.googlemail.com.
 
 ;; TXT Records
-savvyfork.com.	300	IN	TXT	"google-site-verification=fWgLcEydzuTCYZrX2Xobq-tM4dJ9ltxvVtheA35qyQo"
+savvyfork.com.	300	IN	TXT	"google-site-verification=XFxA3swFHJ2IUacHtCGPSB_hRI89L1QSvVs0tWJhVyQ"
 savvyfork.com.	300	IN	TXT	"v=spf1 mx -all"
 savvyfork.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
 

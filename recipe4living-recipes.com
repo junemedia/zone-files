@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living-recipes.com
-;; Exported:   2016-04-27 21:18:54
+;; Exported:   2018-03-06 15:57:59
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living-recipes.com.	root.recipe4living-recipes.com.	(
-		2021345853	; serial
+		2027201847	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,7 +34,7 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-recipe4living-recipes.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+recipe4living-recipes.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
 recipe4living-recipes.com.	300	IN	MX	10	mx1.emailsrvr.com.
@@ -55,7 +55,7 @@ r4lmail6.recipe4living-recipes.com.	300	IN	TXT	"v=spf1 ip4:216.174.43.128/26 ip4
 r4lmail7.recipe4living-recipes.com.	300	IN	TXT	"v=spf1 ip4:216.174.43.128/26 ip4:4.53.240.128/25 -all"
 r4lmail8.recipe4living-recipes.com.	300	IN	TXT	"v=spf1 ip4:216.174.43.128/26 ip4:4.53.240.128/25 -all"
 r4lmail9.recipe4living-recipes.com.	300	IN	TXT	"v=spf1 ip4:216.174.43.128/26 ip4:4.53.240.128/25 -all"
-recipe4living-recipes.com.	300	IN	TXT	"google-site-verification=VY9KTpPROY48J13mo6CCVYL6sGByaavJPKnSfmnk6NQ"
+recipe4living-recipes.com.	300	IN	TXT	"google-site-verification=gTGXtitXBp9DBvcVcKW3AAO-iprgRk14QuRzUq7O01w"
 recipe4living-recipes.com.	300	IN	TXT	"v=spf1 ip4:216.174.43.128/26 ip4:4.53.240.128/25 include:spf.maropost.com ~all"
 
 ;; CNAME Records

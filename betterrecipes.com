@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2018-03-05 22:01:01
+;; Exported:   2018-03-06 16:12:24
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2027195386	; serial
+		2027201934	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -45,7 +45,7 @@ email.betterrecipes.com.	300	IN	MX	20	mx2.emailsrvr.com.
 ;; TXT Records
 betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=none\; rua=mailto:postmaster@betterrecipes.com\; ruf=mailto:postmaster@betterrecipes.com"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
-email.betterrecipes.com.	300	IN	TXT	"google-site-verification=LZ5KX_T7X6pNpJriCZf3iz_FUgzNd2i7nlupRBqsoOQ"
+email.betterrecipes.com.	300	IN	TXT	"google-site-verification=l-B6cjIA_trtanuzKicJk0Y2t1o5lsNZgEPKyYt6qNg"
 email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
 jm._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCszSLWyMJnhb1g6+tFGQGWT+QdW1SDPkgNoHx+OjLjV2/8VWCz9r3gCyZvPSPGc4qcwIFyosJpHGCzv5ZWgDSbuRsX6NwsKWRmBVaLsjCSv2FnNGBcc2hCyEMQqucrl6YYfkK1ufSikMtMZEPwmjLx9BzRiSvuzdieEvHO0MpnpQIDAQAB"
