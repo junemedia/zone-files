@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     workitmom-newsletter.com
-;; Exported:   2018-03-23 14:55:34
+;; Exported:   2018-03-23 17:16:55
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	workitmom-newsletter.com.	root.workitmom-newsletter.com.	(
-		2027348353	; serial
+		2027349201	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -41,8 +41,6 @@ workitmom-newsletter.com.	300	IN	MX	10	mx1.emailsrvr.com.
 workitmom-newsletter.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
-_domainkey.workitmom-newsletter.com.	300	IN	TXT	"t=y\; o=-\;"
-default._domainkey.workitmom-newsletter.com.	300	IN	TXT	"k=rsa\; t=y\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuDNPhn9d1uslEsb61FTJgYpwXEkBiI77fJ1U8N/0RC2ouhPRilCcrnJ+Tm11nhOzAeAAAu0jgmtEmloEy0eQ+TXpB/oa1f1tCX8qXffeLgB9AKpVHVDx1MbOMqChy8aSSe0hbIL0OyukCxuaz4TJqDSlf5zTHC9mOeIMharinUQIDAQAB\;"
 maropost._domainkey.workitmom-newsletter.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtOie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJmeXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
 workitmom-newsletter.com.	300	IN	TXT	"google-site-verification=E5LBQ-vWJK39fi6Gg8nNZQY-gZzcP3meQkWfWHNfd8Q"
 workitmom-newsletter.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
