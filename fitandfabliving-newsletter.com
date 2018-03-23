@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     fitandfabliving-newsletter.com
-;; Exported:   2018-03-06 17:02:59
+;; Exported:   2018-03-23 14:36:52
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	fitandfabliving-newsletter.com.	root.fitandfabliving-newsletter.com.	(
-		2027202237	; serial
+		2027348241	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -46,10 +46,6 @@ default._domainkey.fitandfabliving-newsletter.com.	300	IN	TXT	"k=rsa\; t=y\; p=M
 fitandfabliving-newsletter.com.	300	IN	TXT	"google-site-verification=u05R0z-xECB_2_mXQBXbHrh-pVf0L_kAHBSOeUJrl5c"
 fitandfabliving-newsletter.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 maropost._domainkey.fitandfabliving-newsletter.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtOie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJmeXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
-
-;; CNAME Records
-rs-branding.fitandfabliving-newsletter.com.	300	IN	CNAME	branding.rs-1035-a.com.
-rs-stripe.fitandfabliving-newsletter.com.	300	IN	CNAME	stripe.rs-1035-a.com.
 
 ;; A Records (IPv4 addresses)
 fitandfabliving-newsletter.com.	300	IN	A	104.239.182.231
