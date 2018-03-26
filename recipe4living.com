@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2018-01-30 16:42:27
+;; Exported:   2018-03-26 16:15:46
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2026899714	; serial
+		2027374754	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -53,9 +53,5 @@ recipe4living.com.	300	IN	A	104.239.182.207
 stage.api.recipe4living.com.	300	IN	A	104.130.231.94
 stage.recipe4living.com.	300	IN	A	104.130.231.94
 stage.win.recipe4living.com.	300	IN	A	104.130.7.245
-w1.recipe4living.com.	300	IN	A	104.130.3.186
-w2.recipe4living.com.	300	IN	A	104.239.167.147
-w3.recipe4living.com.	300	IN	A	104.130.25.243
-w4.recipe4living.com.	300	IN	A	162.242.241.126
 win.recipe4living.com.	300	IN	A	162.242.243.45
 www.recipe4living.com.	300	IN	A	104.239.182.207
