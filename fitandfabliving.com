@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     fitandfabliving.com
-;; Exported:   2016-02-15 16:49:47
+;; Exported:   2018-03-26 17:29:36
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	fitandfabliving.com.	root.fitandfabliving.com.	(
-		2020722158	; serial
+		2027375197	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,28 +34,20 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-fitandfabliving.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
-
-;; MX Records
-fitandfabliving.com.	300	IN	MX	10	mail01.amperemedia.com.
+fitandfabliving.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; TXT Records
-fitandfabliving.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
+fitandfabliving.com.	300	IN	TXT	"v=spf1 -all"
 
 ;; CNAME Records
 adstation.fitandfabliving.com.	300	IN	CNAME	fga1129.viewcontact.com.
-ox-d.fitandfabliving.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 m.fitandfabliving.com.	300	IN	CNAME	cloudhostedresources.com.
-ox-ui.fitandfabliving.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
+ox-d.fitandfabliving.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 ox-i.fitandfabliving.com.	300	IN	CNAME	i.cdn.openx.com.
+ox-ui.fitandfabliving.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
 www.fitandfabliving.com.	300	IN	CNAME	fitandfabliving.com.
 
 ;; A Records (IPv4 addresses)
-www3.fitandfabliving.com.	300	IN	A	216.48.124.6
-www2.fitandfabliving.com.	300	IN	A	216.48.124.244
 fitandfabliving.com.	300	IN	A	104.239.182.231
-r.fitandfabliving.com.	300	IN	A	216.174.43.130
-ww2.fitandfabliving.com.	300	IN	A	216.48.124.244
-stage.fitandfabliving.com.	300	IN	A	162.242.244.130
-stg.fitandfabliving.com.	300	IN	A	216.48.124.193
 pics.fitandfabliving.com.	300	IN	A	104.130.230.142
+stage.fitandfabliving.com.	300	IN	A	162.242.244.130
