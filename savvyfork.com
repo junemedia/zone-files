@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     savvyfork.com
-;; Exported:   2018-03-06 16:48:36
+;; Exported:   2018-03-26 17:52:44
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	savvyfork.com.	root.savvyfork.com.	(
-		2027202151	; serial
+		2027375336	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,6 +37,8 @@ $ORIGIN .
 savvyfork.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
+e.savvyfork.com.	300	IN	MX	10	return0.emarsys.net.
+e.savvyfork.com.	300	IN	MX	10	return1.emarsys.net.
 newsletters.savvyfork.com.	300	IN	MX	10	aspmx.l.google.com.
 newsletters.savvyfork.com.	300	IN	MX	20	alt1.aspmx.l.google.com.
 newsletters.savvyfork.com.	300	IN	MX	20	alt2.aspmx.l.google.com.
@@ -49,12 +51,18 @@ savvyfork.com.	300	IN	MX	30	aspmx2.googlemail.com.
 savvyfork.com.	300	IN	MX	30	aspmx3.googlemail.com.
 
 ;; TXT Records
+_dmarc.e.savvyfork.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+_domainkey.e.savvyfork.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.savvyfork.com/index.php/privacy-policy"
+e.savvyfork.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
+key4._domainkey.e.savvyfork.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 savvyfork.com.	300	IN	TXT	"google-site-verification=XFxA3swFHJ2IUacHtCGPSB_hRI89L1QSvVs0tWJhVyQ"
 savvyfork.com.	300	IN	TXT	"v=spf1 mx -all"
 savvyfork.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
 
 ;; CNAME Records
+img.savvyfork.com.	300	IN	CNAME	img-savvyfork-com.emarsys.net.
 li.savvyfork.com.	300	IN	CNAME	ed88fd178c59360b2d97f044b78a24ff.edgesuite.net.
+link.savvyfork.com.	300	IN	CNAME	link-savvyfork-com.emarsys.net.
 m.savvyfork.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
 www.savvyfork.com.	300	IN	CNAME	savvyfork.com.
 

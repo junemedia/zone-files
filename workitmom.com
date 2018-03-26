@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     workitmom.com
-;; Exported:   2018-03-26 17:14:05
+;; Exported:   2018-03-26 17:22:27
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	workitmom.com.	root.workitmom.com.	(
-		2027375104	; serial
+		2027375154	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -37,6 +37,8 @@ $ORIGIN .
 workitmom.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
+e.workitmom.com.	300	IN	MX	10	return0.emarsys.net.
+e.workitmom.com.	300	IN	MX	10	return1.emarsys.net.
 workitmom.com.	300	IN	MX	10	aspmx.l.google.com.
 workitmom.com.	300	IN	MX	20	alt1.aspmx.l.google.com.
 workitmom.com.	300	IN	MX	20	alt2.aspmx.l.google.com.
@@ -44,11 +46,17 @@ workitmom.com.	300	IN	MX	30	aspmx2.googlemail.com.
 workitmom.com.	300	IN	MX	30	aspmx3.googlemail.com.
 
 ;; TXT Records
+_dmarc.e.workitmom.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+e.workitmom.com.	300	IN	TXT	"t=n\; o=~\; n=http://workitmom.com/privacy/"
+e.workitmom.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
+key4._domainkey.e.workitmom.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 workitmom.com.	300	IN	TXT	"v=spf1 mx -all"
 workitmom.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
 
 ;; CNAME Records
 adstation.workitmom.com.	300	IN	CNAME	fga1129.viewcontact.com.
+img.workitmom.com.	300	IN	CNAME	img-workitmom-com.emarsys.net.
+link.workitmom.com.	300	IN	CNAME	link-workitmom-com.emarsys.net.
 ox-d.workitmom.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 ox-i.workitmom.com.	300	IN	CNAME	i.cdn.openx.com.
 ox-ui.workitmom.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.

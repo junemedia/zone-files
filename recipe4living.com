@@ -37,13 +37,21 @@ $ORIGIN .
 recipe4living.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
+e.recipe4living.com.	300	IN	MX	10	return0.emarsys.net.
+e.recipe4living.com.	300	IN	MX	10	return1.emarsys.net.
 recipe4living.com.	300	IN	MX	10	mx1.emailsrvr.com.
 recipe4living.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
+_dmarc.e.recipe4living.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+_domainkey.e.recipe4living.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.recipe4living.com/privacy"
+e.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
+key4._domainkey.e.recipe4living.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
 
 ;; CNAME Records
+img.recipe4living.com.	300	IN	CNAME	img-recipe4living-com.emarsys.net.
+link.recipe4living.com.	300	IN	CNAME	link-recipe4living-com.emarsys.net.
 m.recipe4living.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
 
 ;; A Records (IPv4 addresses)
