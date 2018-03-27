@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     workitmom.com
-;; Exported:   2018-03-26 17:22:27
+;; Exported:   2018-03-27 14:37:12
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	workitmom.com.	root.workitmom.com.	(
-		2027375154	; serial
+		2027382803	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -47,6 +47,7 @@ workitmom.com.	300	IN	MX	30	aspmx3.googlemail.com.
 
 ;; TXT Records
 _dmarc.e.workitmom.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+e.workitmom.com.	300	IN	TXT	"google-site-verification=rznyQzuf6x7x6ihJnj2dmXtb1l9vo9mtEyowSgKrmKs"
 e.workitmom.com.	300	IN	TXT	"t=n\; o=~\; n=http://workitmom.com/privacy/"
 e.workitmom.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 key4._domainkey.e.workitmom.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"

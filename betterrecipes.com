@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2018-03-26 19:20:09
+;; Exported:   2018-03-27 14:39:40
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2027375860	; serial
+		2027382818	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -49,6 +49,7 @@ _dmarc.e.betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\;
 _domainkey.e.betterrecipes.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.betterrecipes.com/privacy-policy"
 betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=none\; rua=mailto:postmaster@betterrecipes.com\; ruf=mailto:postmaster@betterrecipes.com"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
+e.betterrecipes.com.	300	IN	TXT	"google-site-verification=5SGVi5SQJvtqda8Xh10YZbH3EQKoOuJRhU_igHkpNdU"
 e.betterrecipes.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 email.betterrecipes.com.	300	IN	TXT	"google-site-verification=l-B6cjIA_trtanuzKicJk0Y2t1o5lsNZgEPKyYt6qNg"
 email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
