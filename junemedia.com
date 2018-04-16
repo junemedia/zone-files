@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2017-10-12 17:23:53
+;; Exported:   2018-04-16 20:24:13
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2025949563	; serial
+		2027557685	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -50,9 +50,11 @@ junemedia.com.	300	IN	TXT	"v=spf1 include:emailsrvr.com ip:104.130.175.114 ~all"
 admdb.junemedia.com.	300	IN	CNAME	8ec3cdb8845732ea5bbc2a32fa2a87d52453102e.rackspaceclouddb.com.
 autodiscover.junemedia.com.	300	IN	CNAME	autodiscover.emailsrvr.com.
 cmsdb.junemedia.com.	300	IN	CNAME	afc8b7e73c0f2b76df901ef993167a730f11dcf0.rackspaceclouddb.com.
+duda.junemedia.com.	300	IN	CNAME	m.previewmymobile.com.
 oudb.junemedia.com.	300	IN	CNAME	2d7e6c49ff630b3899942e9d35b02e566c4f405a.rackspaceclouddb.com.
 ox-i.junemedia.com.	300	IN	CNAME	i.cdn.openx.com.
 ox-ui.junemedia.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
+preferences.junemedia.com.	300	IN	CNAME	preferences.junemedia.com.ems-ci.com.
 r4ldb.junemedia.com.	300	IN	CNAME	245a6e547f805f83f0b389217de31927fd87ae1e.rackspaceclouddb.com.
 read.em.junemedia.com.	300	IN	CNAME	secure.campaigner.com.
 stgdb.junemedia.com.	300	IN	CNAME	a525a02442eb32ce6698509dc480168c11ae2a4f.rackspaceclouddb.com.
