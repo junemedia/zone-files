@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2018-03-26 19:27:45
+;; Exported:   2018-04-19 15:35:17
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2027375906	; serial
+		2027581871	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -39,8 +39,7 @@ hypster.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 ;; MX Records
 e.hypster.com.	300	IN	MX	10	mx1.emailsrvr.com.
 e.hypster.com.	300	IN	MX	20	mx2.emailsrvr.com.
-email.hypster.com.	300	IN	MX	10	return0.emarsys.net.
-email.hypster.com.	300	IN	MX	10	return1.emarsys.net.
+email.hypster.com.	300	IN	MX	10	mx.eemms.net.
 hypster.com.	300	IN	MX	1	aspmx.l.google.com.
 hypster.com.	300	IN	MX	10	aspmx2.googlemail.com.
 hypster.com.	300	IN	MX	10	aspmx3.googlemail.com.

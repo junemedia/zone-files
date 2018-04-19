@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2018-03-27 14:39:40
+;; Exported:   2018-04-19 15:32:21
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2027382818	; serial
+		2027581854	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -43,10 +43,14 @@ e.betterrecipes.com.	300	IN	MX	10	return0.emarsys.net.
 e.betterrecipes.com.	300	IN	MX	10	return1.emarsys.net.
 email.betterrecipes.com.	300	IN	MX	10	mx1.emailsrvr.com.
 email.betterrecipes.com.	300	IN	MX	20	mx2.emailsrvr.com.
+offers.betterrecipes.com.	300	IN	MX	10	return0.emarsys.net.
+offers.betterrecipes.com.	300	IN	MX	10	return1.emarsys.net.
 
 ;; TXT Records
 _dmarc.e.betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+_dmarc.offers.betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
 _domainkey.e.betterrecipes.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.betterrecipes.com/privacy-policy"
+_domainkey.offers.betterrecipes.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.betterrecipes.com/privacy-policy"
 betterrecipes.com.	300	IN	TXT	"v=DMARC1\; p=none\; rua=mailto:postmaster@betterrecipes.com\; ruf=mailto:postmaster@betterrecipes.com"
 betterrecipes.com.	300	IN	TXT	"v=spf1 include:jangomail.com include:spf.maropost.com ~all"
 e.betterrecipes.com.	300	IN	TXT	"google-site-verification=5SGVi5SQJvtqda8Xh10YZbH3EQKoOuJRhU_igHkpNdU"
@@ -56,7 +60,9 @@ email.betterrecipes.com.	300	IN	TXT	"v=spf1 include:spf.maropost.com ~all"
 jango._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDo64r9r7+JGkLAX7I5dVNGAaW2w4zxqYeaEyIm2Gjid+Rs7l9el0/cyYqGA5sJNlYxJCDGjNcN7K0+/obVRt9gQjkaDQ4HjQcldt2EMjmv7dhyKMOo3fl2P5sdHCMrNVq3obikMVXV1nj4eXHB5RTaGDveO+8i3GH+p0wL4eCtowIDAQAB"
 jm._domainkey.betterrecipes.com.	300	IN	TXT	"k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCszSLWyMJnhb1g6+tFGQGWT+QdW1SDPkgNoHx+OjLjV2/8VWCz9r3gCyZvPSPGc4qcwIFyosJpHGCzv5ZWgDSbuRsX6NwsKWRmBVaLsjCSv2FnNGBcc2hCyEMQqucrl6YYfkK1ufSikMtMZEPwmjLx9BzRiSvuzdieEvHO0MpnpQIDAQAB"
 key4._domainkey.e.betterrecipes.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
+key4._domainkey.offers.betterrecipes.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 maropost._domainkey.email.betterrecipes.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV37ViPSDKA47nSZwc+gVo/XaLKiZeiwNSJMzyLtO ie7VKjFxT/jMM7WTX2Mq//NV5ezSVWxSJh7fvdBKQJB7MWL1XK2YtCYu19fb5hS1vrd9/oyihSc0PHBplnJm eXoc4+S9nAFoKS6IUt5VF/R+IJC03xTtBnXpdtUDvCcpnaQIDAQAB"
+offers.betterrecipes.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 
 ;; CNAME Records
 img.betterrecipes.com.	300	IN	CNAME	img-betterrecipes-com.emarsys.net.

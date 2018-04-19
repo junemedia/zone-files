@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2018-03-27 14:36:06
+;; Exported:   2018-04-19 15:31:56
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2027382796	; serial
+		2027581851	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -39,15 +39,21 @@ recipe4living.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 ;; MX Records
 e.recipe4living.com.	300	IN	MX	10	return0.emarsys.net.
 e.recipe4living.com.	300	IN	MX	10	return1.emarsys.net.
+offers.recipe4living.com.	300	IN	MX	10	return0.emarsys.net.
+offers.recipe4living.com.	300	IN	MX	10	return1.emarsys.net.
 recipe4living.com.	300	IN	MX	10	mx1.emailsrvr.com.
 recipe4living.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
 ;; TXT Records
 _dmarc.e.recipe4living.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
+_dmarc.offers.recipe4living.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
 _domainkey.e.recipe4living.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.recipe4living.com/privacy"
+_domainkey.offers.recipe4living.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.recipe4living.com/privacy"
 e.recipe4living.com.	300	IN	TXT	"google-site-verification=gAmw5kfHw3tO7KSLAotWocvCW02I2rpvBZFxF_9Idd0"
 e.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 key4._domainkey.e.recipe4living.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
+key4._domainkey.offers.recipe4living.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
+offers.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
 
 ;; CNAME Records
