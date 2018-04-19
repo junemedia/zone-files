@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2018-04-19 15:31:56
+;; Exported:   2018-04-19 19:04:55
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2027581851	; serial
+		2027583129	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -53,6 +53,7 @@ e.recipe4living.com.	300	IN	TXT	"google-site-verification=gAmw5kfHw3tO7KSLAotWoc
 e.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 key4._domainkey.e.recipe4living.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 key4._domainkey.offers.recipe4living.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
+offers.recipe4living.com.	300	IN	TXT	"google-site-verification=kSlZwcBo94qvX2Bq7oS7G_V2rJ8GcP963Lo9Y4hpF2s"
 offers.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
 

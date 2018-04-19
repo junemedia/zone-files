@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     fitandfabliving.com
-;; Exported:   2018-04-19 15:34:30
+;; Exported:   2018-04-19 19:24:49
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	fitandfabliving.com.	root.fitandfabliving.com.	(
-		2027581867	; serial
+		2027583248	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -50,6 +50,7 @@ e.fitandfabliving.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~
 fitandfabliving.com.	300	IN	TXT	"v=spf1 -all"
 key4._domainkey.e.fitandfabliving.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 key4._domainkey.offers.fitandfabliving.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
+offers.fitandfabliving.com.	300	IN	TXT	"google-site-verification=50ljz_vjZsgDUXhI0Z2ljuiFj2YM05t0rLCaoS1A-4Q"
 offers.fitandfabliving.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 
 ;; CNAME Records

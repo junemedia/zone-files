@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     junemedia.com
-;; Exported:   2018-04-19 15:33:01
+;; Exported:   2018-04-19 19:25:39
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	junemedia.com.	root.junemedia.com.	(
-		2027581858	; serial
+		2027583253	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -47,6 +47,7 @@ junemedia.com.	300	IN	MX	20	mx2.emailsrvr.com.
 _dmarc.e.junemedia.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\; rf=afrf\; pct=100\;"
 _domainkey.e.junemedia.com.	300	IN	TXT	"t=n\; o=~\; n=http://www.fitandfabliving.com/privacy-policy"
 cmpgnr._domainkey.em.junemedia.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCkXkeunkCMjO0Qh+fhloifm7Drw1nt4K4InK39vHVPUdLpiZg/4HpLLMfZwqyvFg8Vvt/mBWLZnpzZ1r2QkcFnyVIe24cibXa/hwfA3L3keot5/sW+1s5f7dremR8nosao8IyJ48igoi7Lfypj//bKwM5YCVnXvS/RAt6x3QEgQwIDAQAB"
+e.junemedia.com.	300	IN	TXT	"google-site-verification=M5eoUMSmIhigD6jCbCtorlk4kpV7_GUPX-QtXfqRTkg"
 e.junemedia.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 em.junemedia.com.	300	IN	TXT	"v=spf1 include:spf.campaigner.com -all"
 junemedia.com.	300	IN	TXT	"v=spf1 include:emailsrvr.com ip:104.130.175.114 ~all"
