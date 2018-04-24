@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2018-04-24 14:12:54
+;; Exported:   2018-04-24 16:43:50
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2027624577	; serial
+		2027625483	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -65,9 +65,12 @@ offers.betterrecipes.com.	300	IN	TXT	"google-site-verification=XHq3czu88c_h4pKwB
 offers.betterrecipes.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 
 ;; CNAME Records
+e.betterrecipes.com.	300	IN	CNAME	jmadm.junemedia.com.
+email.betterrecipes.com.	300	IN	CNAME	jmadm.junemedia.com.
 img.betterrecipes.com.	300	IN	CNAME	img-betterrecipes-com.emarsys.net.
 link.betterrecipes.com.	300	IN	CNAME	link-betterrecipes-com.emarsys.net.
 m.betterrecipes.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
+offers.betterrecipes.com.	300	IN	CNAME	jmadm.junemedia.com.
 socialize.betterrecipes.com.	300	IN	CNAME	betterrecipes.sslproxy.gigya.com.
 track.betterrecipes.com.	300	IN	CNAME	jngo.net.
 
@@ -75,7 +78,6 @@ track.betterrecipes.com.	300	IN	CNAME	jngo.net.
 *.betterrecipes.com.	300	IN	A	146.20.52.117
 *.stage.betterrecipes.com.	300	IN	A	146.20.110.242
 betterrecipes.com.	300	IN	A	146.20.52.117
-email.betterrecipes.com.	300	IN	A	104.130.175.114
 links.email.betterrecipes.com.	300	IN	A	168.235.224.14
 rack.betterrecipes.com.	300	IN	A	146.20.52.117
 secure.recipes.betterrecipes.com.	300	IN	A	198.186.175.134

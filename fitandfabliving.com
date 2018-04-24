@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     fitandfabliving.com
-;; Exported:   2018-04-19 19:24:49
+;; Exported:   2018-04-24 15:53:30
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	fitandfabliving.com.	root.fitandfabliving.com.	(
-		2027583248	; serial
+		2027625181	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -55,9 +55,11 @@ offers.fitandfabliving.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp
 
 ;; CNAME Records
 adstation.fitandfabliving.com.	300	IN	CNAME	fga1129.viewcontact.com.
+e.fitandfabliving.com.	300	IN	CNAME	fitandfabliving.com.
 img.fitandfabliving.com.	300	IN	CNAME	img-fitandfabliving-com.emarsys.net.
 link.fitandfabliving.com.	300	IN	CNAME	link-fitandfabliving-com.emarsys.net.
 m.fitandfabliving.com.	300	IN	CNAME	cloudhostedresources.com.
+offers.fitandfabliving.com.	300	IN	CNAME	fitandfabliving.com.
 ox-d.fitandfabliving.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 ox-i.fitandfabliving.com.	300	IN	CNAME	i.cdn.openx.com.
 ox-ui.fitandfabliving.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.

@@ -57,9 +57,11 @@ offers.recipe4living.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.u
 recipe4living.com.	300	IN	TXT	"v=spf1 ip4:104.130.3.186 ip4:104.239.167.147 ip4:104.130.25.243 ip4:162.242.241.126 ~all"
 
 ;; CNAME Records
+e.recipe4living.com.	300	IN	CNAME	recipe4living.com.
 img.recipe4living.com.	300	IN	CNAME	img-recipe4living-com.emarsys.net.
 link.recipe4living.com.	300	IN	CNAME	link-recipe4living-com.emarsys.net.
 m.recipe4living.com.	300	IN	CNAME	m.mobilewebsiteserver.com.
+offers.recipe4living.com.	300	IN	CNAME	recipe4living.com.
 
 ;; A Records (IPv4 addresses)
 api.recipe4living.com.	300	IN	A	104.130.3.186

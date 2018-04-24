@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     hypster.com
-;; Exported:   2018-04-19 15:35:17
+;; Exported:   2018-04-24 17:00:18
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	hypster.com.	root.hypster.com.	(
-		2027581871	; serial
+		2027625581	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -60,11 +60,14 @@ maropost._domainkey.e.hypster.com.	300	IN	TXT	"v=DKIM1\; g=*\; k=rsa\; p=MIGfMA0
 
 ;; CNAME Records
 api.hypster.com.	300	IN	CNAME	hypster.com.
+e.hypster.com.	300	IN	CNAME	jmadm.junemedia.com.
+email.hypster.com.	300	IN	CNAME	jmadm.junemedia.com.
 ftp.hypster.com.	300	IN	CNAME	hypster.com.
 googledf6b2607cf2ad016.hypster.com.	300	IN	CNAME	google.com.
 img.hypster.com.	300	IN	CNAME	img-hypster-com.emarsys.net.
 link.hypster.com.	300	IN	CNAME	link-hypster-com.emarsys.net.
 liveintent.hypster.com.	300	IN	CNAME	0a485baf706aeb7e705dbd632f169c5a.edgesuite.net.
+offers.hypster.com.	300	IN	CNAME	jmadm.junemedia.com.
 sweepsadmin.hypster.com.	300	IN	CNAME	win.hypster.com.
 unsubscribe.hypster.com.	300	IN	CNAME	win.hypster.com.
 www.hypster.com.	300	IN	CNAME	hypster.com.

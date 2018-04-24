@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     workitmom.com
-;; Exported:   2018-04-19 19:25:11
+; Exported:   2018-04-24 15:58:02
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	workitmom.com.	root.workitmom.com.	(
-		2027583251	; serial
+		2027625208	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -51,7 +51,6 @@ _dmarc.offers.workitmom.com.	300	IN	TXT	"v=DMARC1\; p=reject\; adkim=s\; aspf=r\
 _domainkey.e.workitmom.com.	300	IN	TXT	"t=n\; o=~\; n=http://workitmom.com/privacy/"
 _domainkey.offers.workitmom.com.	300	IN	TXT	"t=n\; o=~\; n=http://workitmom.com/privacy/"
 e.workitmom.com.	300	IN	TXT	"google-site-verification=rznyQzuf6x7x6ihJnj2dmXtb1l9vo9mtEyowSgKrmKs"
-e.workitmom.com.	300	IN	TXT	"t=n\; o=~\; n=http://workitmom.com/privacy/"
 e.workitmom.com.	300	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 key4._domainkey.e.workitmom.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
 key4._domainkey.offers.workitmom.com.	300	IN	TXT	"v=DKIM1\;k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC89LipD0a30WgIjdxc8BLDMsSMUf8HoXJttcZQKn3R5kdsxd2L4DXP/UVJ0/0jQJwljc2eTXJRshlTU7s8Wdu50MsMfBAu7Ky8WNjR867hw7ACpRmessTDgyASj9gOEBCXmEw0rtn3havJkzF/1kAVKhx0get3XdGMHnFA9ya0KwIDAQAB"
@@ -62,8 +61,10 @@ workitmom.com.	300	IN	TXT	"v=spf1 mx a ip4:104.130.175.114"
 
 ;; CNAME Records
 adstation.workitmom.com.	300	IN	CNAME	fga1129.viewcontact.com.
+e.workitmom.com.	300	IN	CNAME	workitmom.com.
 img.workitmom.com.	300	IN	CNAME	img-workitmom-com.emarsys.net.
 link.workitmom.com.	300	IN	CNAME	link-workitmom-com.emarsys.net.
+offers.workitmom.com.	300	IN	CNAME	workitmom.com.
 ox-d.workitmom.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
 ox-i.workitmom.com.	300	IN	CNAME	i.cdn.openx.com.
 ox-ui.workitmom.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
