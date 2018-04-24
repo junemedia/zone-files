@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living.com
-;; Exported:   2018-04-19 19:04:55
+;; Exported:   2018-04-24 13:39:03
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living.com.	root.recipe4living.com.	(
-		2027583129	; serial
+		2027624374	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -39,8 +39,7 @@ recipe4living.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 ;; MX Records
 e.recipe4living.com.	300	IN	MX	10	return0.emarsys.net.
 e.recipe4living.com.	300	IN	MX	10	return1.emarsys.net.
-offers.recipe4living.com.	300	IN	MX	10	return0.emarsys.net.
-offers.recipe4living.com.	300	IN	MX	10	return1.emarsys.net.
+offers.recipe4living.com.	300	IN	MX	10	mx.eemms.net.
 recipe4living.com.	300	IN	MX	10	mx1.emailsrvr.com.
 recipe4living.com.	300	IN	MX	20	mx2.emailsrvr.com.
 
