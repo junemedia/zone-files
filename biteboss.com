@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     biteboss.com
-;; Exported:   2016-02-15 16:34:55
+;; Exported:   2018-05-23 14:15:23
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	biteboss.com.	root.biteboss.com.	(
-		2020722069	; serial
+		2027875152	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,10 +34,13 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-biteboss.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+biteboss.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
+
+;; TXT Records
+biteboss.com.	1	IN	TXT	"9027319ef2139d74ced794602c7149d9ee541ed6"
 
 ;; CNAME Records
-www.biteboss.com.	300	IN	CNAME	biteboss.com.
+www.biteboss.com.	1	IN	CNAME	biteboss.com.
 
 ;; A Records (IPv4 addresses)
-biteboss.com.	300	IN	A	104.130.175.114
+biteboss.com.	1	IN	A	104.130.175.114
