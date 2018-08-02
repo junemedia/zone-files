@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     fitandfabliving-newsletter.com
-;; Exported:   2018-06-28 14:20:46
+;; Exported:   2018-08-02 17:07:15
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	fitandfabliving-newsletter.com.	root.fitandfabliving-newsletter.com.	(
-		2028186224	; serial
+		2028489623	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -35,13 +35,6 @@ $ORIGIN .
 
 ;; NS Records (YOU MUST CHANGE THIS)
 fitandfabliving-newsletter.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
-
-;; MX Records
-fitandfabliving-newsletter.com.	1	IN	MX	10	mx1.emailsrvr.com.
-fitandfabliving-newsletter.com.	1	IN	MX	20	mx2.emailsrvr.com.
-
-;; TXT Records
-fitandfabliving-newsletter.com.	1	IN	TXT	"google-site-verification=u05R0z-xECB_2_mXQBXbHrh-pVf0L_kAHBSOeUJrl5c"
 
 ;; A Records (IPv4 addresses)
 links.fitandfabliving-newsletter.com.	1	IN	A	168.235.224.14

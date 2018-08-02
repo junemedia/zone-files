@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     recipe4living-recipes.com
-;; Exported:   2018-06-28 15:48:08
+;; Exported:   2018-08-02 17:14:54
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	recipe4living-recipes.com.	root.recipe4living-recipes.com.	(
-		2028186748	; serial
+		2028489669	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -35,13 +35,6 @@ $ORIGIN .
 
 ;; NS Records (YOU MUST CHANGE THIS)
 recipe4living-recipes.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
-
-;; MX Records
-recipe4living-recipes.com.	1	IN	MX	10	mx1.emailsrvr.com.
-recipe4living-recipes.com.	1	IN	MX	20	mx2.emailsrvr.com.
-
-;; TXT Records
-recipe4living-recipes.com.	1	IN	TXT	"google-site-verification=gTGXtitXBp9DBvcVcKW3AAO-iprgRk14QuRzUq7O01w"
 
 ;; CNAME Records
 liveintent.recipe4living-recipes.com.	1	IN	CNAME	a0e7ecc10f2e165068f09d9ad65cfdd8.edgesuite.net.
