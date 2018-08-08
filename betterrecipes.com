@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     betterrecipes.com
-;; Exported:   2018-06-28 16:14:11
+;; Exported:   2018-08-08 20:38:40
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	betterrecipes.com.	root.betterrecipes.com.	(
-		2028186905	; serial
+		2028542732	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -41,8 +41,6 @@ betterrecipes.com.	1	IN	MX	10	mx1.emailsrvr.com.
 betterrecipes.com.	1	IN	MX	20	mx2.emailsrvr.com.
 e.betterrecipes.com.	1	IN	MX	10	return0.emarsys.net.
 e.betterrecipes.com.	1	IN	MX	10	return1.emarsys.net.
-email.betterrecipes.com.	1	IN	MX	10	mx1.emailsrvr.com.
-email.betterrecipes.com.	1	IN	MX	20	mx2.emailsrvr.com.
 offers.betterrecipes.com.	1	IN	MX	10	mx.eemms.net.
 
 ;; TXT Records
