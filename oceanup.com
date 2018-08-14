@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     oceanup.com
-;; Exported:   2017-05-18 14:19:13
+;; Exported:   2018-08-14 16:17:42
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	oceanup.com.	root.oceanup.com.	(
-		2024678375	; serial
+		2028593006	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,19 +34,15 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-oceanup.com.	300	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
+oceanup.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; MX Records
-oceanup.com.	300	IN	MX	10	mx1.emailsrvr.com.
-oceanup.com.	300	IN	MX	20	mx2.emailsrvr.com.
+oceanup.com.	1	IN	MX	10	mx1.emailsrvr.com.
+oceanup.com.	1	IN	MX	20	mx2.emailsrvr.com.
+
+;; CNAME Records
+www.oceanup.com.	1	IN	CNAME	oceanup.com.
 
 ;; A Records (IPv4 addresses)
-*.oceanup.com.	300	IN	A	104.130.42.74
-archive.oceanup.com.	300	IN	A	162.242.235.241
-dev.oceanup.com.	300	IN	A	162.242.235.241
-oceanup.com.	300	IN	A	104.130.42.74
-stage.oceanup.com.	300	IN	A	162.242.235.241
-www.oceanup.com.	300	IN	A	104.130.42.74
-www3.oceanup.com.	300	IN	A	104.239.175.113
-www4.oceanup.com.	300	IN	A	104.130.226.233
-www5.oceanup.com.	300	IN	A	104.239.232.15
+oceanup.com.	1	IN	A	104.239.173.225
+stage.oceanup.com.	1	IN	A	104.239.173.225
