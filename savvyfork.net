@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     savvyfork.net
-;; Exported:   2016-02-15 18:12:51
+;; Exported:   2018-09-17 20:46:31
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	savvyfork.net.	root.savvyfork.net.	(
-		2020722657	; serial
+		2028888379	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,11 +34,11 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-savvyfork.net.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+savvyfork.net.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; TXT Records
-savvyfork.net.	300	IN	TXT	"v=spf1 mx -all"
+savvyfork.net.	1	IN	TXT	"v=spf1 mx -all"
 
 ;; A Records (IPv4 addresses)
-*.savvyfork.net.	300	IN	A	104.239.182.231
-savvyfork.net.	300	IN	A	104.239.182.231
+*.savvyfork.net.	1	IN	A	162.242.215.180
+savvyfork.net.	1	IN	A	162.242.215.180
