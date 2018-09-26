@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     oceanup.com
-;; Exported:   2018-08-14 16:17:42
+;; Exported:   2018-09-26 16:05:03
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,7 +25,7 @@
 ;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	oceanup.com.	root.oceanup.com.	(
-		2028593006	; serial
+		2028964450	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -41,6 +41,7 @@ oceanup.com.	1	IN	MX	10	mx1.emailsrvr.com.
 oceanup.com.	1	IN	MX	20	mx2.emailsrvr.com.
 
 ;; CNAME Records
+cf87cee75747121580550b4ba5fb82e9.oceanup.com.	1	IN	CNAME	verify.bing.com.
 www.oceanup.com.	1	IN	CNAME	oceanup.com.
 
 ;; A Records (IPv4 addresses)
