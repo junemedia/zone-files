@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     chewonthatblog.com
-;; Exported:   2016-02-15 16:45:11
+;; Exported:   2018-11-27 20:36:35
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	chewonthatblog.com.	root.chewonthatblog.com.	(
-		2020722131	; serial
+		2029501759	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,13 +34,8 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-chewonthatblog.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
-
-;; CNAME Records
-ox-d.chewonthatblog.com.	300	IN	CNAME	junemedia-d3.openxenterprise.com.
-ox-i.chewonthatblog.com.	300	IN	CNAME	i.cdn.openx.com.
-ox-ui.chewonthatblog.com.	300	IN	CNAME	junemedia-ui3.openxenterprise.com.
+chewonthatblog.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; A Records (IPv4 addresses)
-chewonthatblog.com.	300	IN	A	104.239.175.26
-www.chewonthatblog.com.	300	IN	A	104.239.175.26
+chewonthatblog.com.	1	IN	A	104.239.182.207
+www.chewonthatblog.com.	1	IN	A	104.239.182.207
