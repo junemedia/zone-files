@@ -1,6 +1,6 @@
 ;; 
 ;; Domain:     runningwithmascara.com
-;; Exported:   2016-02-15 18:08:49
+;; Exported:   2018-11-29 14:25:58
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -22,10 +22,10 @@
 ;; of this zone data, the BIND name server, or any other third-party
 ;; DNS software.
 ;; 
-;;     Use at your own risk.
+;; Use at your own risk.
 $ORIGIN .
 @	3600	IN	SOA	runningwithmascara.com.	root.runningwithmascara.com.	(
-		2020722632	; serial
+		2029516815	; serial
 		7200		; refresh
 		3600		; retry
 		86400		; expire
@@ -34,12 +34,11 @@ $ORIGIN .
 
 
 ;; NS Records (YOU MUST CHANGE THIS)
-runningwithmascara.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
+runningwithmascara.com.	1	IN	NS	REPLACE&ME$WITH^YOUR@NAMESERVER.
 
 ;; TXT Records
-runningwithmascara.com.	300	IN	TXT	"v=spf1 mx -all"
+runningwithmascara.com.	1	IN	TXT	"v=spf1 mx -all"
 
 ;; A Records (IPv4 addresses)
-*.runningwithmascara.com.	300	IN	A	104.239.175.26
-runningwithmascara.com.	300	IN	A	104.239.175.26
-www.runningwithmascara.com.	300	IN	A	104.239.175.26
+runningwithmascara.com.	1	IN	A	162.242.215.180
+www.runningwithmascara.com.	1	IN	A	162.242.215.180
