@@ -61,15 +61,46 @@ offers.betterrecipes.com.	1	IN	TXT	"google-site-verification=XHq3czu88c_h4pKwB5k
 offers.betterrecipes.com.	1	IN	TXT	"v=spf1 include:emarsys.us include:emsmtp.us ~all"
 
 ;; CNAME Records
+appetizer.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+beef.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+bread.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+breakfast.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+cake.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+chicken.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+christmas.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+cookie.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+crockpot.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+dessert.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+diabetic.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+drink.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 e.betterrecipes.com.	1	IN	CNAME	jmadm.junemedia.com.
+easter.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+easy.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+fxb.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+grilling.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+groups.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+halloween.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+healthy.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 img.betterrecipes.com.	120	IN	CNAME	img-betterrecipes-com.emarsys.net.
+italian.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 link.betterrecipes.com.	120	IN	CNAME	link-betterrecipes-com.emarsys.net.
+lowcarb.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+lowfat.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+mexican.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+mixingbowl.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 offers.betterrecipes.com.	1	IN	CNAME	jmadm.junemedia.com.
+pork.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+recipes.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+restaurant.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+salad.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+seafood.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 socialize.betterrecipes.com.	1	IN	CNAME	betterrecipes.sslproxy.gigya.com.
+soup.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
+thanksgiving.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 track.betterrecipes.com.	1	IN	CNAME	jngo.net.
+vegetarian.betterrecipes.com.	1	IN	CNAME	www.betterrecipes.com.
 
 ;; A Records (IPv4 addresses)
-*.betterrecipes.com.	1	IN	A	146.20.52.117
 betterrecipes.com.	1	IN	A	146.20.52.117
 rack.betterrecipes.com.	1	IN	A	146.20.52.117
 secure.recipes.betterrecipes.com.	1	IN	A	198.186.175.134
