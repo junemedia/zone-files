@@ -1,6 +1,6 @@
 ;;
 ;; Domain:     betterrecipes.com.
-;; Exported:   2019-03-07 15:34:49
+;; Exported:   2019-03-07 16:00:52
 ;;
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -25,17 +25,14 @@
 ;; Use at your own risk.
 
 ;; SOA Record
-betterrecipes.com.	3600	IN	SOA	betterrecipes.com. root.betterrecipes.com. 2030363948 7200 3600 86400 3600
+betterrecipes.com.	3600	IN	SOA	betterrecipes.com. root.betterrecipes.com. 2030364105 7200 3600 86400 3600
 
 ;; A Records
 betterrecipes.com.	1	IN	A	162.209.125.69
-rack.betterrecipes.com.	1	IN	A	162.209.125.69
 secure.recipes.betterrecipes.com.	1	IN	A	198.186.175.134
 stage.win.betterrecipes.com.	1	IN	A	104.130.7.245
 sweepsadmin.betterrecipes.com.	1	IN	A	162.242.243.45
 unsubscribe.betterrecipes.com.	1	IN	A	162.242.243.45
-web1.betterrecipes.com.	1	IN	A	162.209.125.67
-web2.betterrecipes.com.	1	IN	A	162.209.125.69
 win.betterrecipes.com.	1	IN	A	162.242.243.45
 www.betterrecipes.com.	1	IN	A	162.209.125.69
 
