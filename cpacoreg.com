@@ -1,6 +1,6 @@
 ;; 
-;; Domain:     cpacoreg.com
-;; Exported:   2016-02-15 16:46:47
+;; Domain:     cpacoreg.com.
+;; Exported:   2019-03-11 15:49:38
 ;; 
 ;; This file is intended for use for informational and archival
 ;; purposes ONLY and MUST be edited before use on a production
@@ -23,27 +23,15 @@
 ;; DNS software.
 ;; 
 ;;     Use at your own risk.
-$ORIGIN .
-@	3600	IN	SOA	cpacoreg.com.	root.cpacoreg.com.	(
-		2020722140	; serial
-		7200		; refresh
-		3600		; retry
-		86400		; expire
-		3600)		; minimum
 
+;; SOA Record
+cpacoreg.com.	3600	IN	SOA	cpacoreg.com. root.cpacoreg.com. 2030398597 7200 3600 86400 3600
 
+;; A Records
+cpacoreg.com.	1	IN	A	104.130.175.114
 
-;; NS Records (YOU MUST CHANGE THIS)
-cpacoreg.com.	300	IN	NS	REPACE&ME$WITH^YOUR@NAMESERVER.
-
-;; MX Records
-cpacoreg.com.	300	IN	MX	10	mail01.amperemedia.com.
+;; CNAME Records
+www.cpacoreg.com.	1	IN	CNAME	cpacoreg.com.
 
 ;; TXT Records
-cpacoreg.com.	300	IN	TXT	"v=spf1 ip4:216.48.124.0/24 a mx ptr -all"
-
-;; A Records (IPv4 addresses)
-admin.cpacoreg.com.	300	IN	A	216.48.124.137
-cpacoreg.com.	300	IN	A	104.130.175.114
-test.cpacoreg.com.	300	IN	A	216.48.124.137
-www.cpacoreg.com.	300	IN	A	104.130.175.114
+cpacoreg.com.	1	IN	TXT	"v=spf1 -all"
